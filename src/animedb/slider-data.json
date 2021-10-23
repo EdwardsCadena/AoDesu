@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "name": "Kimetsu no Yaiba",
+        "background-img": "https://i.ibb.co/KVkLGMs/kimetsu-no-yaiba.jpg",
+        "txt": "Todo Kimetsu no Yaiba esta a tu disposición, ¿Qué esperas?...",
+        "url": "/kimetsu-no-yaiba",
+        "logo": "https://i.ibb.co/fFB24Ty/kimetsu-no-yaiba-logo.png",
+        "btnContent": "Ver Ahora",
+        "style": "kimetsu"
+    },
+    {
+        "id": 99,
+        "name": "Avatar: la leyenda de Aang",
+        "background-img": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2020/08/14/5faa7250e5d25.jpeg",
+        "txt": "Aprende a manipular todos los elementos...",
+        "url": "/",
+        "logo": "https://www.seekpng.com/png/full/768-7683212_the-last-airbender-avatar-the-legend-of-aang.png",
+        "btnContent": "12 / 11 / 2021",
+        "style": "Avatar"
+    }
+]

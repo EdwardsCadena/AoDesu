@@ -1,0 +1,18 @@
+[
+    {
+        "id": 0,
+        "anime": "Kimetsu no Yaiba",
+        "url": "/kimetsu-no-yaiba",
+        "cover-anime": "https://i.ibb.co/KVkLGMs/kimetsu-no-yaiba.jpg",
+        "capsCant": "26",
+        "language": "Subtitulado"
+    },
+    {
+        "id": 2,
+        "anime": "Boku no Hero Academia S1",
+        "url": "/boku_no_hero_academia_s1",
+        "cover-anime":"https://i.ibb.co/qWZshPk/boku-no-hero-season1-larga.jpg",
+        "capsCant": "12",
+        "language": "Subtitulado"
+    }
+]

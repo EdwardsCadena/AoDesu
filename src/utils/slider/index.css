@@ -1,0 +1,128 @@
+main{
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    position: relative;
+}
+.img-slider{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    filter: blur(5px);
+}
+.img-slider img{
+    position: relative;
+}
+.txt-slider
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 700;
+    font-family: var(--font-legible);
+    font-size: 30px;
+    flex-flow: row;
+}
+.txt-slider > div{
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt-info
+{
+    max-width: 400px;
+    padding: 10px;
+    height: auto !important;
+    text-align: center;
+    border-radius: 1px;
+}
+.background-image
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.7);
+}
+.content-slider
+{
+    display: flex;
+    flex-flow: column;
+    max-width: 500px;
+}
+.logo-slider{
+    height: 15vh;
+}
+.logo-slider img{
+    height: 100%;
+    width: auto;
+}
+.btn-slider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-slider a{
+    background: var(--color-green-general);
+    color: #fff;
+    text-shadow: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    display: block;
+}
+.kimetsu .txt-info,
+.kimetsu a{
+    background: #fff;
+    color: #000;
+    border: 3px solid #000;
+    font-family: 'Architects Daughter', cursive;
+    box-shadow: 0 0 0 4px #ee1c25;
+}
+.kimetsu .btn-slider a{
+    padding: 5px 15px;
+    font-size: 26px;
+}
+.Avatar .txt-info,
+.Avatar a{
+    font-family: 'The Girl Next Door', cursive;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+.Avatar a{
+    font-size: 20px;
+    font-family: var(--font-legible);
+    background: transparent;
+}
+.arrow
+{
+    color: #fff;
+    position: relative;
+    font-size: 24px;
+}
+.urlBox
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+@media(max-width: 780px){
+    .txt-info{
+        display: none !important;
+    }
+}

@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: var(--black-2);
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body.light{
+	background: var(--light-1);
+	color: #000;
+}
+
+body.lowPerformance,
+body.lowPerformance .CloseBtn,
+body.lowPerformance .content,
+body.lowPerformance .ao-cell-container,
+body.lowPerformance .ao-cell-containerMovies,
+body.lowPerformance .Arrows:nth-child(1),
+body.lowPerformance .Arrows:nth-child(3),
+body.lowPerformance .Arrows > i,
+body.lowPerformance .MovieRecco,
+body.lowPerformance .MovieRecco .movieName,
+body.lowPerformance .manga-container a,
+body.lowPerformance .ao-cell-caps-container:hover,
+body.lowPerformance .ViewButton,
+body.lowPerformance .ViewButton .HoverNotice,
+body.lowPerformance .ao-anime-popUp,
+body.lowPerformance .CapsBtns,
+body.lowPerformance .options-container,
+body.lowPerformance .reproductor-options-container,
+body.lowPerformance .change-reproductor-container,
+body.lowPerformance .options-reproductorBtn,
+body.lowPerformance .options-reproductorBtn i,
+body.lowPerformance .hoverBtnOps,
+body.lowPerformance .caps-selector > a,
+body.lowPerformance .caps-selector > button,
+body.lowPerformance .HelpUsLinks > a,
+body.lowPerformance .CapsRecommendedsContainer,
+body.lowPerformance .cardImg img,
+body.lowPerformance .cardLinks,
+body.lowPerformance .cardLinks > a,
+body.lowPerformance .Options a,
+body.lowPerformance .Options button,
+body.lowPerformance .MoviesPadd,
+body.lowPerformance .MovieMode .MovieRecco,
+body.lowPerformance .MovieModeFooter,
+body.lowPerformance .Options div ,
+body.lowPerformance .CapsCounter,
+body.lowPerformance .button-container span,
+body.lowPerformance .ao-anime-popUp,
+body.lowPerformance .header .header-menu,
+body.lowPerformance .profile-info,
+body.lowPerformance .profile-btn button,
+body.lowPerformance .header .header-menu,
+body.lowPerformance .HeaderMovil .header .header-menu,
+body.lowPerformance .profile-header-cellphone .profile-container,
+body.lowPerformance .profile-header-cellphone .profile-info,
+body.lowPerformance .header .header-menu,
+body.lowPerformance .closeSearchClicker,
+body.lowPerformance .search-container,
+body.lowPerformance .headerReproductor #FooterCaps.show .FooterCaps,
+body.lowPerformance .FooterCaps,
+body.lowPerformance .sci li a:hover,
+body.lowPerformance .search
+{
+	transition: none !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+img
+{
+  width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --ao-recommended-items-per-grow: 5;
+	--ao-recommended-movies-per-grow: 6;
+	--ao-grid-item-margin: 5px;
+	--ao-anime-img-multiplier: 1.6;
+	--ao-max-height-caps: 500px;
+
+	--branch: #00FFFF;
+	--black-1: #141d26;
+	--black-2: #243447;
+	--black-3: #212F3D;
+	--black-4: #2C3E50;
+
+	--light-1: #ECF0F1;
+	--light-2: #D0D3D4;
+
+	--ended: #c0392b;
+
+	--color-temporada-invierno: #80deea;
+	--color-green-general: #186A3B;
+	--color-green-general-light: #090;
+    --color-temporada-invierno: #80deea;
+    --color-temporada-otoño: #ef6c00;
+    --color-temporada-primavera: #f6f;
+
+	--font-alternative: 'Barlow', sans-serif;
+	--font-legible: 'Roboto', sans-serif;
+
+	--ao-reproductor-width: 640px; 
+	--ao-reproductor-height: 360px;
+	
+	--ao-watch-min-player-height: 480px;
+	--ao-watch-width-ratio: 16;
+	--ao-watch-height-ratio: 9;
+	--ao-margin-6x: 24px;
+	--ao-watch-sidebar-min-width: 300px;
+	--ao-watch-sidebar-width: 402px;
+
+	--ao-watch-masthead-heigth: 56px;
+	--ao-watch-space-below-player: 136px;
+
+	--ao-watch-max-player-width: calc( ( 100vh - (var(--ao-watch-masthead-heigth) + var(--ao-margin-6x) + var(--ao-watch-space-below-player) ) )*( var(--ao-watch-width-ratio) / var(--ao-watch-height-ratio)) );
+	--ao-watch-min-player-width: calc( var(--ao-watch-min-player-height) * (var(--ao-watch-width-ratio) / var(--ao-watch-height-ratio) ));
+	
+	--ao-banner-000000: url(https://i.ibb.co/XXqHQH2/Kimetsu-no-yaiba-season1-largo.jpg);
+	--ao-banner-000001: url(https://i.ibb.co/Cn4tT5Z/Ijiranaide-nagatoro-san-largo.jpg);
+	--ao-banner-000002: url(https://i.ibb.co/2NTCPs0/keijo.jpg);
+	--ao-banner-000003: url(https://i.ibb.co/12gpsNH/Jibaku-shonen-hanako-kun-largo.jpg);
+	--ao-banner-000004: url(https://i.ibb.co/rdYwxct/the-idolmaster-cinderella-girls.jpg);
+	--ao-banner-000005: url(https://i.ibb.co/jV7bxsN/tonikaku-kawaii-background.jpg);
+	--ao-banner-000006: url(https://i.ibb.co/b3wCw9x/bokutachi-wa-benkyou-ga-dekinai-background.jpg);
+	--ao-banner-000007: url(https://i.ibb.co/ggk64Nf/bokutachi-wa-benkyou-ga-dekinai-2-background.jpg);
+	--ao-banner-000008: url(https://occ-0-4440-3418.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABT0C2ClPGjx3fubwHbVybo8irFWb24rq36ff2VfBH97-33QMwMtHI8A1t_mFf8UuQCikv9cm7-OZNglUxsWdWl0dIpsN.jpg?r=e73);
+}	
+@media(max-height: 660px) {
+	:root
+	{
+		--ao-watch-min-player-height: 360px;
+	}
+}
+@media (max-width: 1951px){
+	:root{
+		--ao-recommended-items-per-grow: 4;
+	}
+}
+@media (max-width: 1540px){
+	:root{	
+		--ao-recommended-movies-per-grow: 5;
+	}
+}
+@media(max-width: 1342px) {
+	:root
+	{
+		--ao-watch-min-player-height: 360px;
+	}
+}
+@media (max-width: 1300px){
+	:root{	
+		--ao-recommended-movies-per-grow: 4;
+	}
+}
+@media (max-width: 1127px){
+	:root{
+		--ao-recommended-items-per-grow: 3;
+		--ao-anime-img-multiplier: 1.2;
+	}
+}
+@media (max-width: 1024px){
+	:root{
+		--ao-max-height-caps: auto;
+		--ao-watch-min-player-height: 240px;
+	}
+}
+@media (max-width: 873px){
+	:root{
+		--ao-recommended-items-per-grow: 2;
+		--ao-recommended-movies-per-grow: 3;
+	}
+}
+@media (max-width: 700px){
+	:root {
+		--ao-recommended-movies-per-grow: 2;
+	}
+}
+@media (max-width: 587px){
+	:root{
+		--ao-recommended-items-per-grow: 1;
+		--ao-anime-img-multiplier: .8;
+	}
+}
+#player
+{
+	width: 100% !important;
+	height: 100% !important;
+}
+/* HEADER */
+.headerReproductor .HeaderMovil
+{
+	display: inline !important;
+}
+.headerReproductor.showMovil .btn-visibility i.show
+{
+	display: inline;
+}
+#ContainerContent.headerReproductor .header-menu
+{
+    left: -250px;
+}
+#ContainerContent.headerReproductor .content
+{
+	margin: 60px 0 0 0;
+}
+#ContainerContent.headerReproductor.showMovil .content
+{
+	margin: 60px 0 0 0;
+}
+#headerReproductor.headerReproductor .content {
+	margin: 60px 0 0 64px;
+}
+#ContainerContent.headerReproductor .header-menu
+{
+	width: 250px;
+}
+#ContainerContent.headerReproductor .header-menu.showMovil
+{
+    left: 0;
+}
+#ContainerContent.show .content
+{
+	margin: 60px 0 0 64px;
+}
+#ContainerContent.headerNormal .header .btn-visibility i.show,
+#ContainerContent.headerNormal .header .btn-visibility.show i.show
+{
+	display: none;
+}
+
+#ContainerContent.headerNormal .header .btn-visibility.show i.hide,
+#ContainerContent.headerNormal .header .btn-visibility i.hide
+{
+	display: inline;
+}
+/* ///////////////////////////// SCROLLBAR ///////////////////////////// */
+*::-webkit-scrollbar {
+	width: 4px;     /* Tamaño del scroll en vertical */
+	height: 0px;    /* Tamaño del scroll en horizontal */
+	/* display: none;  Ocultar scroll */
+  }
+  
+  /* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+  *::-webkit-scrollbar-thumb {
+	background: var(--branch);
+  }
+  body.light *::-webkit-scrollbar-thumb{
+	  background: var(--black-1);
+  }
+  /* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+  *::-webkit-scrollbar-thumb:hover {
+	background: #00dddd;
+	box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  body.light *::-webkit-scrollbar-thumb:hover{
+	  background: var(--black-4);
+  }
+  /* Cambiamos el fondo cuando esté en active */
+  *::-webkit-scrollbar-thumb:active {
+	background-color: #00c0c0;
+  }
+  
+  /* Ponemos un color de fondo y redondeamos las esquinas del track */
+  *::-webkit-scrollbar-track {
+	background: rgba(0,0,0,.5);
+  }
+
+  body.light *::-webkit-scrollbar-track{
+	  background: var(--light-2);
+  }
+  
+  /* Cambiamos el fondo cuando esté en active o hover */
+  *::-webkit-scrollbar-track:hover,
+  *::-webkit-scrollbar-track:active {
+  background: var(--black-1);
+  }
+
+  body.light *::-webkit-scrollbar-track:hover,
+  body.light *::-webkit-scrollbar-track:active {
+	  background: var(--light-2) !important;
+  }
+/* PACE JS */
+.pace {
+	-webkit-pointer-events: none;
+	pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.pace-inactive {
+	display: none;
+}
+
+.pace .pace-progress {
+	background: #00ffff;
+	position: fixed;
+	z-index: 2000;
+	top: 0;
+	right: 100%;
+	width: 100%;
+	height: 2px;
+}
+
+.pace .pace-progress-inner {
+	display: block;
+	position: absolute;
+	right: 0px;
+	width: 100px;
+	height: 100%;
+	box-shadow: 0 0 10px #00ffff, 0 0 5px #00ffff;
+	opacity: 1.0;
+	-webkit-transform: rotate(3deg) translate(0px, -4px);
+	-moz-transform: rotate(3deg) translate(0px, -4px);
+	-ms-transform: rotate(3deg) translate(0px, -4px);
+	-o-transform: rotate(3deg) translate(0px, -4px);
+	transform: rotate(3deg) translate(0px, -4px);
+}
+
+.pace .pace-activity {
+	display: block;
+	position: fixed;
+	z-index: 2000;
+	top: 15px;
+	right: 15px;
+	width: 14px;
+	height: 14px;
+	border: solid 2px transparent;
+	border-top-color: #00ffff;
+	border-left-color: #00ffff;
+	border-radius: 10px;
+	-webkit-animation: pace-spinner 400ms linear infinite;
+	-moz-animation: pace-spinner 400ms linear infinite;
+	-ms-animation: pace-spinner 400ms linear infinite;
+	-o-animation: pace-spinner 400ms linear infinite;
+	animation: pace-spinner 400ms linear infinite;
+}
+@-webkit-keyframes pace-spinner {
+	0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-moz-keyframes pace-spinner {
+	0% { -moz-transform: rotate(0deg); transform: rotate(0deg); }
+	100% { -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-o-keyframes pace-spinner {
+	0% { -o-transform: rotate(0deg); transform: rotate(0deg); }
+	100% { -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-ms-keyframes pace-spinner {
+	0% { -ms-transform: rotate(0deg); transform: rotate(0deg); }
+	100% { -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@keyframes pace-spinner {
+	0% { transform: rotate(0deg); transform: rotate(0deg); }
+	100% { transform: rotate(360deg); transform: rotate(360deg); }
+}
+.content
+{
+  transition: .2s;
+  margin: 60px 0 0 200px;
+}
+.content-padd
+{
+	padding: 10px;
+	margin: 0 auto;
+}

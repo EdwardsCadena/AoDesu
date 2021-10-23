@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "anime": "Ijiranaide, Nagatoro-san",
+        "url": "/ijiranaide-nagatoro-san",
+        "cover-anime": "https://i.ibb.co/Cn4tT5Z/Ijiranaide-nagatoro-san-largo.jpg",
+        "capsCant": "12",
+        "language": "Subtitulado"
+    },
+    {
+        "id": 5,
+        "anime": "Tonikaku Kawaii",
+        "url": "/tonikaku-kawaii",
+        "cover-anime": "https://i.ibb.co/Z2W6cxL/tonikaku-kawaii.jpg",
+        "capsCant": "12",
+        "language": "Subtitulado"
+    }
+]

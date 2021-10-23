@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "anime": "Kimetsu no Yaiba",
+        "url": "/kimetsu-no-yaiba",
+        "cover-anime": "https://i.ibb.co/KVkLGMs/kimetsu-no-yaiba.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-check"
+    },
+    {
+        "id": 1,
+        "anime": "Ijiranaide, Nagatoro-san",
+        "url": "/ijiranaide-nagatoro-san",
+        "cover-anime": "https://i.ibb.co/Cn4tT5Z/Ijiranaide-nagatoro-san-largo.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-check"
+    },
+    {
+        "id": 2,
+        "anime": "Keijo!!!!!!!!",
+        "url": "/keijo",
+        "cover-anime": "https://i.ibb.co/2NTCPs0/keijo.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-check"
+    },
+    {
+        "id": 3,
+        "anime": "Jibaku Shounen Hanako-kun",
+        "url": "/jibaku-shounen-hanako-kun",
+        "cover-anime": "https://i.ibb.co/12gpsNH/Jibaku-shonen-hanako-kun-largo.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-check"
+    },
+    {
+        "id": 4,
+        "anime": "The IDOLM@STER: Cinderella Girls",
+        "url": "/the-idolmasters-cinderella-girls", 
+        "cover-anime": "https://i.ibb.co/rdYwxct/the-idolmaster-cinderella-girls.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-check"
+    },
+    {
+        "id": 5,
+        "anime": "Tonikaku Kawaii",
+        "url": "/tonikaku-kawaii",
+        "cover-anime": "https://i.ibb.co/Z2W6cxL/tonikaku-kawaii.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-check"
+    },
+    {
+        "id": 6,
+        "anime": "Bokutachi wa Benkyou ga Dekinai",
+        "url": "/bokutachi-wa-benkyou-ga-dekinai",
+        "cover-anime": "https://i.ibb.co/kcB6f3H/bokutachi-wa-benkyou-ga-dekinai-wide.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-check"
+    },
+    {
+        "id": 7,
+        "anime": "Bokutachi wa Benkyou ga Dekinai 2",
+        "url": "/bokutachi-wa-benkyou-ga-dekinai-2",
+        "cover-anime": "https://i.ibb.co/wswT590/bokutachi-wa-benkyou-ga-dekinai-2-wide.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-check"
+    },
+    {
+        "id": 8,
+        "anime": "Neon Genesis Evangelion",
+        "url": "/neon-genesis-evangelion",
+        "cover-anime": "https://i.ibb.co/2MccH68/neon-genesis-evangelion-wide.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-check"
+    }
+]

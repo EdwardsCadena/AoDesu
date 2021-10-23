@@ -1,0 +1,58 @@
+[
+    {
+        "id": 0,
+        "name": "Kimi no Na Wa",
+        "url": "/kimi-no-nawa",
+        "cover-anime": "https://i.ibb.co/c2ybzzb/kimi-no-nawa.jpg",
+        "language": "Español Latino",
+        "verified": "fas fa-grip-lines"
+    },
+    {
+        "id": 1,
+        "name": "Koe no Katachi",
+        "url": "/koe-no-katachi",
+        "cover-anime": "https://i.ibb.co/WFznwzj/koe-no-katachi.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-times"
+    },
+    {
+        "id": 2,
+        "name": "Kimetsu no Yaiba: Mugen Ressha-hen",
+        "url": "/kimetsu-no-yaiba-mugen-ressha-hen",
+        "cover-anime": "https://i.ibb.co/ZcS5cNC/kimetsu-no-yaiba-mugen-ressha-hen.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-times"
+    },
+    {
+        "id": 3,
+        "name": "My Hero Academia: Two Heroes",
+        "url": "/my-hero-academia-two-heroes",
+        "cover-anime": "https://i.ibb.co/x55TRk6/my-hero-academia-two-heroes.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-times"
+    },
+    {
+        "id": 4,
+        "name": "My Hero Academia: Heroes Rising",
+        "url": "/my-hero-academia-heroes-rising",
+        "cover-anime": "https://i.ibb.co/jRQW5fZ/my-hero-academia-heroes-rising.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-times"
+    },
+    {
+        "id": 5,
+        "name": "My Hero Academia: World Heroes Mission",
+        "url": "/my-hero-academia-world-heroes-mission",
+        "cover-anime": "https://i.ibb.co/Gs57Zn8/my-hero-academia-world-heroes-mission.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-times"
+    },
+    {
+        "id": 6,
+        "name": "No Game, No Life Zero",
+        "url": "/no-game-no-life-zero",
+        "cover-anime": "https://i.ibb.co/LZnVCSK/no-game-no-life-zero.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-times"
+    }
+]

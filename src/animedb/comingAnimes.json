@@ -1,0 +1,245 @@
+[
+    {
+        "id": 9,
+        "anime": "Lucky ☆ Star",
+        "url": "/lucky-star",
+        "cover-anime": "https://i.ibb.co/r2SsvbY/lucky-star-wide.jpg",
+        "language": "Subtitulado",
+        "date": "01 / 11 / 2021",
+        "state": "working"
+    },
+    {
+        "id": 10,
+        "anime": "Nichijou",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/C5c5YzG/Nichijou-wide.jpg",
+        "language": "Subtitulado",
+        "date": "10 / 11 / 2021",
+        "state": "working"
+    },
+    {
+        "id": 11,
+        "anime": "ToraDora!",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/SJ1mSnj/Tora-Dora-wide.jpg",
+        "language": "Subtitulado",
+        "date": "20 / 11 / 2021",
+        "state": "working"
+    },
+    {
+        "id": 12,
+        "anime": "Shigatsu wa Kimi no Uso",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/W3Nq3hW/Shigatsu-wa-Kimi-no-Uso-wide.jpg",
+        "language": "Subtitulado",
+        "date": "30 / 11 / 2021",
+        "state": "working"
+    },
+    {
+        "id": 13,
+        "anime": "Non Non Biyori",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/kgDZzzb/Non-Non-Biyori-wide.jpg",
+        "language": "Subtitulado",
+        "date": "10 / 12 / 2021",
+        "state": "working"
+    },
+    {
+        "id": 14,
+        "anime": "Karakai Jouzu no Takagi-san",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/VTgBYN4/Karakai-Jouzu-no-Takagi-san-wide.jpg",
+        "language": "Subtitulado",
+        "date": "20 / 12 / 2021",
+        "state": "working"
+    },
+    {
+        "id": 15,
+        "anime": "Sewayaki Kitsune no Senko-san",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/7tQq0TJ/Sewayaki-Kitsune-no-Senko-san-wide.jpg",
+        "language": "Subtitulado",
+        "date": "30 / 12 / 2021",
+        "state": "working"
+    },
+    {
+        "id": 16,
+        "anime": "Watashi ni Tenshi ga Maiorita!",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/d5m1sjN/Watashi-ni-Tenshi-ga-Maiorita-wide.jpg",
+        "language": "Subtitulado",
+        "date": "10 / 01 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 17,
+        "anime": "Ueno-san wa Bukiyou",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/yqxnzRF/Ueno-san-wa-Bukiyou-wide.jpg",
+        "language": "Subtitulado",
+        "date": "20 / 01 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 18,
+        "anime": "Zombieland Saga",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/8Y6FyTQ/Zombieland-Saga-wide.jpg",
+        "language": "Subtitulado",
+        "date": "30 / 01 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 19,
+        "anime": "Wotaku ni Koi wa Muzukashii",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/3sNrSWN/Wotaku-ni-Koi-wa-Muzukashii-wide.jpg",
+        "language": "Subtitulado",
+        "date": "10 / 02 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 20,
+        "anime": "Chuunibyou demo Koi ga Shitai!",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/6tyHtt6/Chuunibyou-demo-Koi-ga-Shitai-wide.jpg",
+        "language": "Subtitulado",
+        "date": "20 / 03 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 21,
+        "anime": "Blend S",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/VvKWrkK/Blend-S-wide.jpg",
+        "language": "Subtitulado",
+        "date": "28 / 02 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 22,
+        "anime": "Eromanga-sensei",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/FqXktJS/Eromanga-sensei-wide.jpg",
+        "language": "Subtitulado",
+        "date": "10 / 03 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 23,
+        "anime": "Himouto! Umaru-chan",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/BK5yvwc/Himouto-Umaru-chan-wide.jpg",
+        "language": "Subtitulado",
+        "date": "20 / 03 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 24,
+        "anime": "Uzaki-chan wa Asobitai!",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/zf8YFNJ/Uzaki-chan-wa-Asobitai-wide.jpg",
+        "language": "Subtitulado",
+        "date": "30 / 03 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 25,
+        "anime": "Fate/kaleid liner Prisma Illya",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/KmNWdH5/Fatekaleid-liner-Prisma-Illya-wide.jpg",
+        "language": "Subtitulado",
+        "date": "10 / 04 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 26,
+        "anime": "Date A Live",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/n7jDTjL/Date-A-Live-wide.jpg",
+        "language": "Subtitulado",
+        "date": "20 / 04 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 27,
+        "anime": "Onii-chan Dakedo Ai Sae Areba Kankeinai yo ne",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/thH0yf0/Onii-chan-Dakedo-Ai-Sae-Areba-Kankeinai-yo-ne-wide.jpg",
+        "language": "Subtitulado",
+        "date": "30 / 04 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 28,
+        "anime": "Yuruyuri",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/4mxrCYj/Yuruyuri-wide.jpg",
+        "language": "Subtitulado",
+        "date": "10 / 05 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 29,
+        "anime": "Gotoubun no Hanayome",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/5RRmT54/Gotoubun-no-Hanayome-wide.jpg",
+        "language": "Subtitulado",
+        "date": "20 / 05 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 30,
+        "anime": "Murenase! Seton Gakuen",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/VWTtLzx/Murenase-Seton-Gakuen-wide.jpg",
+        "language": "Subtitulado",
+        "date": "30 / 05 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 31,
+        "anime": "Ore wo Suki nano wa Omae dake ka yo",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/3Rb4XRt/Ore-wo-Suki-nano-wa-Omae-dake-ka-yo-wide.jpg",
+        "language": "Subtitulado",
+        "date": "10 / 06 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 32,
+        "anime": "Hitori Bocchi no Marumaru Seikatsu",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/CKFcPK7/Hitori-Bocchi-no-Marumaru-Seikatsu-wide.jpg",
+        "language": "Subtitulado",
+        "date": "20 / 06 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 33,
+        "anime": "Gabriel DropOut",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/nm36wY3/Gabriel-Drop-Out-wide.jpg",
+        "language": "Subtitulado",
+        "date": "30 / 06 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 34,
+        "anime": "Takunomi.",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/nb9QtHC/Takunomi-wide.jpg",
+        "language": "Subtitulado",
+        "date": "10 / 07 / 2022",
+        "state": "working"
+    },
+    {
+        "id": 35,
+        "anime": "No Game No Life",
+        "url": "",
+        "cover-anime": "https://i.ibb.co/9c9Vk7L/No-Game-No-Life-wide.jpg",
+        "language": "Subtitulado",
+        "date": "20 / 07 / 2022",
+        "state": "working"
+    }
+]

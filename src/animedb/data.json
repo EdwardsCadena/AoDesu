@@ -1,0 +1,94 @@
+[
+    {
+        "id": 0,
+        "type": "Anime",
+        "name": "Kimetsu no Yaiba",
+        "url": "/kimetsu-no-yaiba",
+        "wide-cover-anime": "https://i.ibb.co/KVkLGMs/kimetsu-no-yaiba.jpg"
+    },
+    {
+        "id": 0.1,
+        "type": "Anime",
+        "name": "Demon Slayer",
+        "url": "/kimetsu-no-yaiba",
+        "wide-cover-anime": "https://i.ibb.co/KVkLGMs/kimetsu-no-yaiba.jpg"
+    },
+    {
+        "id": 1,
+        "type": "Anime",
+        "name": "Ijiranaide, Nagatoro-san",
+        "url": "/ijiranaide-nagatoro-san",
+        "wide-cover-anime": "https://i.ibb.co/Cn4tT5Z/Ijiranaide-nagatoro-san-largo.jpg"
+    },
+    {
+        "id": 2,
+        "type": "Anime",
+        "name": "Keijo!!!!!!!!",
+        "url": "/keijo",
+        "wide-cover-anime": "https://i.ibb.co/2NTCPs0/keijo.jpg"
+    },
+    {
+        "id": 3,
+        "type": "Anime",
+        "name": "Jibaku Shounen Hanako-kun",
+        "url": "/jibaku-shounen-hanako-kun",
+        "wide-cover-anime": "https://i.ibb.co/12gpsNH/Jibaku-shonen-hanako-kun-largo.jpg"
+    },
+    {
+        "id": 4,
+        "type": "Anime",
+        "name": "The IDOLM@STER: Cinderella Girls",
+        "url": "/the-idolmasters-cinderella-girls",
+        "wide-cover-anime": "https://i.ibb.co/rdYwxct/the-idolmaster-cinderella-girls.jpg"
+    },
+    {
+        "id": 5,
+        "type": "Anime",
+        "name": "Tonikaku Kawaii",
+        "url": "/tonikaku-kawaii",
+        "wide-cover-anime": "https://i.ibb.co/Z2W6cxL/tonikaku-kawaii.jpg"
+    },
+    {
+        "id": 6,
+        "type": "Anime",
+        "name": "Bokutachi wa Benkyou ga Dekinai",
+        "url": "/bokutachi-wa-benkyou-ga-dekinai",
+        "wide-cover-anime": "https://i.ibb.co/kcB6f3H/bokutachi-wa-benkyou-ga-dekinai-wide.jpg"
+    },
+    {
+        "id": 6.1,
+        "type": "Anime",
+        "name": "We Never Learn",
+        "url": "/bokutachi-wa-benkyou-ga-dekinai",
+        "wide-cover-anime": "https://i.ibb.co/kcB6f3H/bokutachi-wa-benkyou-ga-dekinai-wide.jpg"
+    },
+    {
+        "id": 7,
+        "type": "Anime",
+        "name": "Bokutachi wa Benkyou ga Dekinai 2",
+        "url": "/bokutachi-wa-benkyou-ga-dekinai-2",
+        "wide-cover-anime": "https://i.ibb.co/wswT590/bokutachi-wa-benkyou-ga-dekinai-2-wide.jpg"
+    
+    },
+    {
+        "id": 7.1,
+        "type": "Anime",
+        "name": "We Never Learn 2",
+        "url": "/bokutachi-wa-benkyou-ga-dekinai-2",
+        "wide-cover-anime": "https://i.ibb.co/wswT590/bokutachi-wa-benkyou-ga-dekinai-2-wide.jpg"
+    },
+    {
+        "id": 8,
+        "type": "Anime",
+        "name": "Neon Genesis Evangelion",
+        "url": "/neon-genesis-evangelion",
+        "wide-cover-anime": "https://i.ibb.co/2MccH68/neon-genesis-evangelion-wide.jpg"
+    },
+    {
+        "id": "M0",
+        "type": "Pelicula",
+        "name": "Kimi no Na Wa",
+        "url": "/kimi-no-nawa",
+        "wide-cover-anime": "https://i.ibb.co/WGycgMC/wide-kimi-no-na-wa.jpg"
+    }
+]

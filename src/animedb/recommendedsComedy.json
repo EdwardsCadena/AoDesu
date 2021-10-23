@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "anime": "Ijiranaide, Nagatoro-san",
+        "url": "/ijiranaide-nagatoro-san",
+        "cover-anime": "https://i.ibb.co/Cn4tT5Z/Ijiranaide-nagatoro-san-largo.jpg",
+        "capsCant": "12",
+        "language": "Subtitulado"
+    },
+    {
+        "id": 3,
+        "anime": "Jibaku Shounen Hanako-kun",
+        "url": "/jibaku-shounen-hanako-kun",
+        "cover-anime": "https://i.ibb.co/QdyWcYX/jibaku-shounen-hanako-kun.jpg",
+        "capsCant": "12",
+        "language": "Subtitulado"
+    },
+    {
+        "id": 4,
+        "anime": "The IDOLM@STER: Cinderella Girls",
+        "url": "/the-idolmasters-cinderella-girls",
+        "cover-anime": "https://i.ibb.co/rdYwxct/the-idolmaster-cinderella-girls.jpg",
+        "capsCant": "13",
+        "language": "Subtitulado"
+    },
+    {
+        "id": 6,
+        "anime": "Bokutachi wa Benkyou ga Dekinai",
+        "url": "/bokutachi-wa-benkyou-ga-dekinai",
+        "cover-anime": "https://i.ibb.co/kcB6f3H/bokutachi-wa-benkyou-ga-dekinai-wide.jpg",
+        "capsCant": "13",
+        "language": "Subtitulado"
+    }
+]
