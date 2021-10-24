@@ -1,0 +1,336 @@
+.HeaderPC
+{
+    position: relative;
+    z-index: 99;
+}
+.header-PopUp
+{
+    background: #00090957;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 8;
+    visibility: hidden;
+    opacity: 0;
+}
+.header-PopUp Button
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.header
+{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+.header .btn-visibility
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: none;
+}
+body.light .header .btn-visibility i{
+    color: var(--black-1);
+}
+.header .btn-visibility:hover
+{
+    background: rgba(255, 255, 255, .05);
+    box-shadow: none;
+}
+.header .btn-visibility i
+{
+  color: #FFF;
+  font-size: 2em;
+  position: absolute;
+}
+.header .btn-visibility.show i.hide,
+.header .btn-visibility i.show
+{
+  display: none;
+}
+.header .btn-visibility.show i.show,
+.header .btn-visibility i.hide{
+  display: inline;
+}
+.header a img,
+.header a
+{
+    height: 100%;
+}
+.header .header-menu
+{
+    width: 200px;
+    height: calc(100vh - 60px);
+    background: #141d26;
+    overflow: hidden;
+    transition: .15s;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+body.light .header .header-menu{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    background: #fff !important;
+}
+body.light .header-top{
+    box-shadow: 0 -7px 20px rgb(0 0 0 / 10%) !important;
+    background: rgba(255, 255, 255, .95) !important;
+}
+.header .header-menu.show
+{
+    width: 64px;
+}
+.AoDesuLogo
+{
+	margin-left: 64px;
+    color: #00FFFF;
+    font-family: var(--font-alternative);
+    font-size: 34px;
+    font-weight: 700;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+body.light .AoDesuLogo{
+    color: var(--black-1);
+}
+.DesuTxtH
+{
+    color: #141d26;
+    background: #00FFFF;
+    padding: 0 5px;
+    border-radius: 5px;
+    position: relative;
+    margin-left: -5px;
+    font-size: 25px;
+    z-index: 1;
+}
+body.light .DesuTxtH{  
+    color: white;
+    background: var(--black-1);
+}
+.DesuTxtH::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #141d26;
+    top: calc(50% - 5px);
+    left: -7px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+body.light .DesuTxtH::before{
+    background: var(--light-1);
+}
+.DesuTxtH::after{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #00FFFF;
+    transform: rotate(45deg);
+    position: absolute;
+    left: -3px;
+    top: calc(50% - 4px);
+}
+body.light .DesuTxtH::after{
+    background: var(--black-1);
+}
+.header-menu ul
+{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 10px;
+}
+.header-menu ul li
+{
+    list-style: none;
+    width: 100%;
+    font-size: 1.5em;
+    white-space: nowrap;
+}
+.header-menu ul li:hover
+{
+    background: rgba(255, 255, 255, .03);
+}
+body.light .header-menu ul li:hover{
+    background: rgba(0, 0, 0, .1);
+}
+.header-menu ul li i
+{
+    width: 64px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+body.light .header-menu ul li i,
+body.light .header-menu ul li a{
+    color: var(--black-1);
+}
+.header-menu ul li a
+{
+    color: #fff;
+    display: block;
+    padding: 5px 0;
+    font-family: var(--font-alternative);
+}
+.header-menu ul li span
+{
+    font-size: .8em;
+}
+.profile-header{
+    position: absolute;
+    z-index: 9;
+    right: 15px;
+    top: 10px;
+}
+.profile-header.Show .profile-info{
+    visibility: visible;
+    opacity: 1;
+    top: calc(100% + 20px);
+}
+.profile-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.profile-info
+{
+    background: var(--black-4);
+    position: absolute;
+    top: calc(100% + 10px);
+    box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+    right: 15px;
+    width: 280px;
+    display: flex;
+    flex-flow: column;
+    border-radius: 5px;
+    font-size: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .1s;
+    padding-top: 20px;
+}
+body.light .profile-info{
+    background: #fff;
+}
+.profile-name,
+.profile-email
+{
+    display: flex;
+    flex-flow: row;
+    margin-top: 5px;
+}
+.profile-name{
+    font-size: 20px;
+}
+.profile-email{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.txt{
+    width: calc(100% - 30px);
+    height: 23px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 1;
+    letter-spacing: normal;
+    font-size: 1em;
+    color: #ccc;
+    text-align: center;
+    font-family: var(--font-legible);    
+
+}
+.icon{
+    width: 20px;
+    height: 23px;
+    margin-right: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    display: none !important;
+}
+.profile-btn
+{
+    margin-top: 10px;
+    width: 100%;
+}
+.profile-btn button{
+    padding: 8px 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+    transition: .2s;
+    background: var(--color-green-general);
+    width: 100%;
+}
+body.light .profile-btn button{
+    background: var(--black-4);
+}
+.profile-btn button:hover{
+    background: rgba(255,255,255,.04);
+}
+.profile-info > div
+{
+    border: none;
+    padding: 0;
+}
+@media (max-width: 1024px)
+{
+	.HeaderPC
+	{
+		display: none !important;
+	}
+    .header .header-menu {
+        left: calc(-200px + -60px) !important;
+        transition: .3s;
+    }
+    .logoHeader
+    {
+        margin: 0;
+    }
+    .header .header-menu
+    {
+        width: 250px;
+    }
+    .header .header-menu.show {
+        left: 0 !important;
+        width: 250px;
+    }
+    .header-PopUp.show
+    {
+        visibility: visible;
+        opacity: 1;
+    }
+}

@@ -1,6 +1,7 @@
 [
     {
         "id": 0,
+        "type": "Anime",
         "class": "a000000",
         "name": "Kimetsu no Yaiba",
         "url": "/kimetsu-no-yaiba",
@@ -13,10 +14,34 @@
         "year": "2016",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "4.8 Estrellas"
+        "stars": "4.8 Estrellas",
+        "mangaUrl": "/kimetsu-no-yaiba",
+        "genres": [
+            {
+                "genre": "Acción",
+                "url": "/"
+            },
+            {
+                "genre": "Demonios",
+                "url": "/"
+            },
+            {
+                "genre": "Historico",
+                "url": "/"
+            },
+            {
+                "genre": "Shounen",
+                "url": "/"
+            },
+            {
+                "genre": "Sobrenatural",
+                "url": "/"
+            }
+        ]
     },
     {
         "id": 1,
+        "type": "Anime",
         "name": "Ijiranaide, Nagatoro-san",
         "class": "a000001",
         "url": "/ijiranaide-nagatoro-san",
@@ -29,10 +54,26 @@
         "year": "2021",
         "season": "primavera",
         "seasonIcon": "fas fa-spa",
-        "stars": "4.6 Estrellas"
+        "stars": "4.6 Estrellas",
+        "mangaUrl": "/ijiranaide-nagatoro-san",
+        "genres": [
+            {
+                "genre": "Comedia",
+                "url": "/"
+            },
+            {
+                "genre": "Recuentos de la vida",
+                "url": "/"
+            },
+            {
+                "genre": "Romance",
+                "url": "/"
+            }
+        ]
     },
     {
         "id": 2,
+        "type": "Anime",
         "name": "Keijo!!!!!!!!",
         "class": "a000002",
         "url": "/keijo",
@@ -45,10 +86,26 @@
         "year": "2016",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "4.6 Estrellas"
+        "stars": "4.6 Estrellas",
+        "mangaUrl": "/keijo",
+        "genres": [
+            {
+                "genre": "Deportes",
+                "url": "/"
+            },
+            {
+                "genre": "Ecchi",
+                "url": "/"
+            },
+            {
+                "genre": "Shounen",
+                "url": "/"
+            }
+        ]
     },
     {
         "id": 3,
+        "type": "Anime",
         "name": "Jibaku Shounen Hanako-kun",
         "class": "a000003",
         "url": "/jibaku-shounen-hanako-kun",
@@ -61,10 +118,30 @@
         "year": "2020",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "4.7 Estrellas"
+        "stars": "4.7 Estrellas",
+        "mangaUrl": "/jibaku-shounen-hanako-kun",
+        "genres": [
+            {
+                "genre": "Comedia",
+                "url": "/"
+            },
+            {
+                "genre": "Escolares",
+                "url": "/"
+            },
+            {
+                "genre": "Shounen",
+                "url": "/"
+            },
+            {
+                "genre": "Sobrenatural",
+                "url": "/"
+            }
+        ]
     },
     {
         "id": 4,
+        "type": "Anime",
         "name": "The IDOLM@STER: Cinderella Girls",
         "class": "a000004",
         "url": "/the-idolmasters-cinderella-girls",
@@ -77,10 +154,26 @@
         "year": "2015",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "4.7 Estrellas"
+        "stars": "4.7 Estrellas",
+        "mangaUrl": "/the-idolmasters-cinderella-girls",
+        "genres": [
+            {
+                "genre": "Comedia",
+                "url": "/"
+            },
+            {
+                "genre": "Drama",
+                "url": "/"
+            },
+            {
+                "genre": "Música",
+                "url": "/"
+            }
+        ]
     },
     {
         "id": 5,
+        "type": "Anime",
         "name": "Tonikaku Kawaii",
         "class": "a000005",
         "url": "/tonikaku-kawaii",
@@ -93,10 +186,26 @@
         "year": "2020",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "4 Estrellas"
+        "stars": "4 Estrellas",
+        "mangaUrl": "/tonikaku-kawaii",
+        "genres": [
+            {
+                "genre": "Comedia",
+                "url": "/"
+            },
+            {
+                "genre": "Romance",
+                "url": "/"
+            },
+            {
+                "genre": "Shounen",
+                "url": "/"
+            }
+        ]
     },
     {
         "id": 6,
+        "type": "Anime",
         "name": "Bokutachi wa Benkyou ga Dekinai",
         "class": "a000006",
         "url": "/bokutachi-wa-benkyou-ga-dekinai",
@@ -109,10 +218,34 @@
         "year": "2019",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "3.6 Estrellas"
+        "stars": "3.6 Estrellas",
+        "mangaUrl": "/bokutachi-wa-benkyou-ga-dekinai",
+        "genres": [
+            {
+                "genre": "Comedia",
+                "url": "/"
+            },
+            {
+                "genre": "Escolares",
+                "url": "/"
+            },
+            {
+                "genre": "Harem",
+                "url": "/"
+            },
+            {
+                "genre": "Romance",
+                "url": "/"
+            },
+            {
+                "genre": "Shounen",
+                "url": "/"
+            }
+        ]
     },
     {
         "id": 7,
+        "type": "Anime",
         "name": "Bokutachi wa Benkyou ga Dekinai 2",
         "class": "a000007",
         "url": "/bokutachi-wa-benkyou-ga-dekinai-2",
@@ -125,10 +258,34 @@
         "year": "2019",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "3.6 Estrellas"
+        "stars": "3.6 Estrellas",
+        "mangaUrl": "/bokutachi-wa-benkyou-ga-dekinai-2",
+        "genres": [
+            {
+                "genre": "Comedia",
+                "url": "/"
+            },
+            {
+                "genre": "Escolares",
+                "url": "/"
+            },
+            {
+                "genre": "Harem",
+                "url": "/"
+            },
+            {
+                "genre": "Romance",
+                "url": "/"
+            },
+            {
+                "genre": "Shounen",
+                "url": "/"
+            }
+        ]
     },
     {
         "id": 8,
+        "type": "Anime",
         "name": "Neon Genesis Evangelion",
         "class": "a000008",
         "url": "/neon-genesis-evangelion",
@@ -141,6 +298,33 @@
         "year": "1995",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "4.7 Estrellas"
+        "stars": "4.7 Estrellas",
+        "mangaUrl": "/neon-genesis-evangelion",
+        "genres": [
+            {
+                "genre": "Acción",
+                "url": "/"
+            },
+            {
+                "genre": "Ciencia Ficción",
+                "url": "/"
+            },
+            {
+                "genre": "Demencia",
+                "url": "/"
+            },
+            {
+                "genre": "Drama",
+                "url": "/"
+            },
+            {
+                "genre": "Mecha",
+                "url": "/"
+            },
+            {
+                "genre": "Psicológico",
+                "url": "/"
+            }
+        ]
     }
 ]

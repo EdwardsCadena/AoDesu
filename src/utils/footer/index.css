@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root
+{
+	--font-alternative: 'Barlow', sans-serif;
+}
+#FooterCaps.show .FooterCaps
+{
+    width: calc(100% - 200px - 200px);
+    margin-left: 200px;
+}
+.headerReproductor #FooterCaps.show .FooterCaps,
+.FooterCaps
+{
+    position: relative;
+    width: calc(100% - 200px);
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: rgba(0,0,0,.2);
+    padding: 50px 100px;
+    overflow: hidden;
+    transition: .2s;
+}
+body.light .headerReproductor #FooterCaps.show .FooterCaps,
+body.light .FooterCaps{
+    background: var(--black-1);
+}
+.InvisibleTxt
+{
+    visibility: hidden;
+}
+.FooterContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+}
+.FooterContainer .sec
+{
+    margin-right: 30px;
+}
+.FooterContainer .sec.aboutUs
+{
+    width: 40%;
+}
+.FooterContainer h2
+{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: var(--font-alternative);
+}
+.FooterContainer h2::before
+{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #00FFFF;
+}
+.FooterContainer p
+{
+    color: #999;
+}
+.sci
+{
+    margin-top: 20px;
+    display: flex;
+}
+.sci li
+{
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background: #222;
+}
+.sci li a
+{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding-left: 9px;
+}
+.sci li a:hover
+{
+    background: #00ffff75;
+    transition: .1s;
+}
+.sci li a i
+{
+    color: #fff;
+    font-size: 20px;
+}
+.quickLinks
+{
+    position: relative;
+    width: 25%;
+}
+.quickLinks ul li
+{
+    list-style: none;
+}
+.quickLinks ul li a
+{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.quickLinks ul li a:hover
+{
+    color: #fff;
+}
+.contact
+{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+.contact .info
+{
+    position: relative;
+}
+.contact .info li
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.contact .info li span:nth-child(1){
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact .info li span,
+.contact .info li a
+{
+    color: #999;
+    text-decoration: none;
+}
+.contact .info li a:hover{
+    color: #fff;
+}
+.copyRightTxt
+{
+    position: relative;
+    width: calc(100% - 16px - 64px);
+    background: #18181888;
+    padding: 8px;
+    text-align: center;
+    margin-left: 64px;
+}
+body.light .copyRightTxt{
+    background: var(--black-2);
+    color: #fff;
+}
+.FooterBackground
+{
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    height: 100%;
+    opacity: .1;
+    z-index: 0;
+}
+.headerReproductor .copyRightTxt{
+    width: 100%;
+    margin: 0;
+}
+@media (max-width: 1024px){
+    #FooterCaps .FooterCaps
+    {
+        width: calc(100% - 200px - 64px) !important;
+        margin-left: 64px !important;
+    }
+}
+@media (max-width: 991px) {
+    .FooterCaps .FooterContainer
+    {
+        flex-direction: column;
+    }
+    .FooterCaps .FooterContainer .sec
+    {
+        margin-right: 0;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+}
+@media (max-width: 587px){
+    .FooterCaps{
+        
+        margin: 0 !important;
+    }
+}
+@media (max-width: 460px){
+    #FooterCaps .FooterCaps{
+        padding: 40px;
+        width: calc(100% - 80px) !important;
+        margin: 0 !important;
+    }
+    .copyRightTxt{
+        margin-left: 0;
+        margin-bottom: 60px;
+        width: calc(100% - 8px);
+    }
+    .headerReproductor .copyRightTxt{
+        width: calc(100% - 8px);
+        margin-bottom: 60px;
+    }
+}

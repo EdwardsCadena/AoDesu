@@ -101,6 +101,7 @@ main{
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 40px;
+    line-height: 40px;
 }
 .Avatar a{
     font-size: 20px;

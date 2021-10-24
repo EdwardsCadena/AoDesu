@@ -1,0 +1,83 @@
+
+body.AddsModalNoVisible .ModalContainer
+{
+    visibility: hidden;
+    opacity: 0;
+}
+.ModalContainer
+{
+    transition: .2s;
+}
+.ModalClickable
+{
+    position: fixed;
+    z-index: 98;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+}
+.modalAdds
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 20px);
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.modal-title
+{
+    position: absolute;
+    top: 10px;
+    color: rgb(237, 30, 69);
+    left: 20px;
+    font-weight: 600;
+    font-family: var(--font-alternative);
+    font-size: 1.6em;
+}
+.modalTxt
+{
+    max-width: 600px;
+    background: #141d26;
+    border-radius: 20px;
+    position: relative;
+    padding: 50px 20px 30px;
+    z-index: 100;
+    display: flex;
+    flex-flow: column;
+}
+.modalTxt > button {
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+    right: 10px;
+}
+.modalTxt > a
+{
+    color: #fff;
+    background: rgb(237, 30, 69);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    width: 111.8px;
+    margin-bottom: 10px;
+    position: relative;
+    left: calc(50% - 111.8px / 2);
+    transition: .2s;
+}
+.modalTxt > a:hover
+{
+    background: rgb(180, 30, 69);
+    transform: translateY(-2px);
+}
+.modalTxt > a:active
+{
+    transform: translateY(2px);
+}

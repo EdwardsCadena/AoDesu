@@ -1,0 +1,160 @@
+.search{
+    position: fixed;
+    top: 10px; 
+    z-index: 9;
+    left: calc(50% - 150px);
+    transition: .2s;
+}
+.searchInputs {
+    display: flex;
+  }
+  
+  .search input {
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 18px;
+    padding: 15px;
+    height: 10px;
+    color: #fff;
+    width: 300px;
+    border-right: 0;
+    z-index: 12;
+  }
+  body.light .search input{
+    color: var(--black-1);
+    border: 1px solid rgba(0,0,0,.2);
+    border-right: 0;
+  }
+  .searchIcon {
+    height: 40px;
+    width: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,.2);
+    border-left: 0;
+    cursor: pointer;
+  }
+  body.light .searchIcon{
+    border: 1px solid rgba(0,0,0,.2);
+    border-left: 0;
+  }
+  input:focus {
+    outline: none;
+  }
+  .searchIcon svg {
+    font-size: 32px;
+  }
+  
+  .dataResult {
+    margin-top: 5px;
+    width: 372px;
+    height: 40vh;
+    background-color: var(--black-4);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  body.light .dataResult{
+    background: var(--light-1);
+  }
+  .dataResult::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .dataResult .dataItem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  #clearBtn {
+    cursor: pointer;
+  }
+.dataResult > div{
+    border-bottom: 1px solid rgba(255, 255, 255,.2);
+}
+body.light .dataResult > div{
+  border-bottom: 1px solid rgba(0, 0, 0,.1);
+}
+.dataResult > div:nth-last-child(1),
+body.light .dataResult > div:nth-last-child(1){
+    border-bottom: 0;
+}
+.SearchResult
+{
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    z-index: 12;
+}
+.SearchResult:hover .dataItem{
+    background: rgba(0, 0, 0, 0.3);
+}
+.result-img
+{
+    width: 150px;
+    overflow: hidden;
+}
+.result-txt{
+    width: calc(100% - 150px - 20px - 5px);
+    padding-left: 5px;
+    position: relative;
+}
+.result-name
+{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.result-type{
+    position: absolute;
+    bottom: 5px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    color: #fff;
+}
+.result-type.Anime{
+    background: #006064;
+}
+.result-type.Pelicula{
+    
+    background: #1B5E20;
+}
+.clearInput{
+  background: transparent;
+  width: 200vw;
+  height: 150vh;
+  top: -50px;
+  left: -100vw;
+  position: absolute;
+  z-index: 11;
+}
+@media (max-width: 670px){
+  .search{
+    visibility: hidden;
+    opacity: 0;  
+  }
+  .search-container-mv
+  {
+    bottom: 100%;
+    position: absolute;
+  }
+  body.light .search-container button{
+    color: var(--black-1);
+  }
+  body.light .search-container.Show{
+    background: var(--light-1);
+  }
+}

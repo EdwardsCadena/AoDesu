@@ -1,0 +1,549 @@
+.HeaderMovil
+{
+    position: relative;
+    z-index: 98;
+}
+.header-PopUp
+{
+    background: #00090957;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 8;
+    visibility: hidden;
+    opacity: 0;
+}
+.header-PopUp Button
+{
+    position: absolute;
+    background: red;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.header
+{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+.header .btn-visibility
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+}
+.header .btn-visibility:hover
+{
+    background: rgba(255, 255, 255, .05);
+}
+.header .btn-visibility i
+{
+  color: #FFF;
+  font-size: 2em;
+  position: absolute;
+}
+.header .btn-visibility.showMovil i.hide,
+.header .btn-visibility i.showMovil
+{
+  display: none;
+}
+.header .btn-visibility.showMovil i.showMovil,
+.header .btn-visibility i.hide{
+  display: inline;
+}
+.header a img,
+.header a
+{
+    height: 100%;
+}
+.HeaderMovil .header .header-menu
+{
+    width: 250px;
+    height: calc(100vh - 60px);
+    background: #141d26;
+    overflow: hidden;
+    transition: .15s;
+    position: absolute;
+    top: 60px;
+    left: calc(-250px + -60px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+.header .header-menu.showMovil
+{
+    width: 64px;
+}
+
+.header-menu ul
+{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 10px;
+}
+.header-menu ul li
+{
+    list-style: none;
+    width: 100%;
+    font-size: 1.5em;
+    white-space: nowrap;
+}
+.header-menu ul li:hover
+{
+    background: rgba(255, 255, 255, .03);
+}
+.header-menu ul li i
+{
+    width: 64px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-menu ul li a
+{
+    color: #fff;
+    display: block;
+    font-family: var(--font-alternative);
+    padding: 5px 0;
+}
+.header-menu ul li span
+{
+    font-size: .8em;
+}
+.header-top{
+    width: 100%;
+    height: 60px;
+    background: #141d26;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 -7px 20px rgba(0,0,0,.7);
+    z-index: 1;
+}
+.profile-header-cellphone{
+    position: absolute;
+    z-index: 9;
+    right: 15px;
+    top: 15px;
+}
+.profile-header.Show .profile-info{
+    visibility: visible;
+    opacity: 1;
+    top: calc(100% + 20px);
+}
+.profile-header-cellphone .profile-img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: calc(100% + 15px);
+    top: -50px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.profile-header-cellphone.Show .profile-img{
+    top: 25px;
+    width: 100px;
+    height: 100px;
+    right: calc(50% - 50px);
+}
+.profile-header-cellphone .profile-container{
+    width: 300px;
+    position: fixed;
+    z-index: 98;
+    top: 60px;
+    right: -300px;
+    transition: .1s;
+    height: calc(100vh - 61px);
+    background: var(--black-1);
+    border-top: 1px solid rgba(255, 255, 255,.2);
+}
+body.light .profile-header-cellphone .profile-container{
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, .5);
+}
+.profile-header-cellphone.Show .profile-container{
+    right: 0;
+}
+.profile-header-cellphone .profile-info
+{
+    background: transparent;
+    position: relative;
+    top: 140px;
+    right: 0;
+    width: calc(100% - 20px);
+    display: flex;
+    padding: 10px;
+    flex-flow: column;
+    border-radius: 5px;
+    font-size: 20px;
+    visibility: visible;
+    opacity: 1;
+    transition: .1s;
+}
+body.light .profile-header-cellphone .profile-info{
+    box-shadow: none;
+}
+.profile-header-cellphone .profile-info::before
+{
+    content: '';
+    display: none;
+}
+.profile-name,
+.profile-email
+{
+    display: flex;
+    flex-flow: row;
+    margin-top: 5px;
+}
+.txt{
+    width: calc(100% - 30px);
+    height: 23px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 1;
+    letter-spacing: normal;
+    font-size: 1em;
+    color: #ccc;
+    font-family: var(--font-legible);    
+    line-height: 23px;
+}
+body.light .txt{
+    color: #777;
+}
+.icon{
+    width: 20px;
+    height: 23px;
+    margin-right: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.icon i{
+    position: absolute;
+}
+.profile-btn
+{
+    margin-top: 10px;
+    width: 100%;
+}
+.profile-header-cellphone .profile-btn button{
+    padding: 8px 0px;
+    font-size: 1em;
+    width: calc(100% - 20px);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background: #435c75;
+    color: var(--black-1);
+    font-weight: bold;
+}
+body.light .profile-header-cellphone .profile-btn button{
+    background: var(--black-4);
+    color: #fff;
+}
+.search-container button{
+    display: none;
+}
+.settings-button-mv{
+    height: 100%;
+    display: flex;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    position: absolute;
+    right: 70px;
+}
+.settings-button-mv a{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+body.light .settings-button-mv a{
+    color: var(--black-1);
+}
+@media (max-width: 1024px)
+{
+    .ao-popUp-profile
+    {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, .5);
+        top: 0;
+        left: 0;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .profile-header-cellphone.Show ~ .ao-popUp-profile
+    {
+        visibility: visible;
+        opacity: 1;
+        z-index: 1;
+    }
+    .AoDesuLogo
+    {
+        margin-left: 64px !important;
+    }
+    .header .header-menu {
+        transition: .3s;
+    }
+    .logoHeader
+    {
+        margin: 0;
+    }
+    #ContainerContent.headerReproductor .header-menu
+    {
+        left: -250px !important;
+    }
+    #ContainerContent.headerReproductor .header-menu.showMovil{
+        left: 0 !important;
+    }
+    .HeaderMovil .header .header-menu
+    {
+        width: 64px;
+        left: 0 !important;
+    }
+    .header .header-menu.showMovil {
+        left: 0;
+        width: 220px;
+    }
+    .header-PopUp.showMovil
+    {
+        visibility: visible;
+        opacity: 1;
+    }
+    .HeaderMovil
+    {
+        display: inline;
+    }
+    .header-menu ul li a{
+        display: flex;
+        flex-flow: column wrap;
+        font-size: .8em;
+        margin-bottom: 5px;
+    }
+    .header-menu ul li a span{
+        font-size: .55em;
+        white-space: normal;
+        text-align: center;
+    }
+    .header .header-menu.showMovil ul li a{
+        display: inline;
+    }
+    .header .header-menu.showMovil ul li a span
+    {
+        font-size: 1em;
+    }
+}
+@media (max-width: 670px){
+    .closeSearchClicker
+    {
+        width: 100vw;
+        height: 100vh;
+        right: 0;
+        top: 0;
+        background: rgba(0, 0, 0, .5);
+        visibility: hidden;
+        opacity: 0;
+        transition: .1s;
+        z-index: 10;
+        position: fixed;
+    }
+    .search-container.Show ~ .closeSearchClicker{
+        visibility: visible;
+        opacity: 1;
+    }
+    .search-container
+    {
+        position: fixed;
+        width: 60px;
+        z-index: 11;
+        right: 70px;
+        top: 0;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .2s;
+    }
+    .search-container button{
+        background: transparent;
+        color: #fff;
+        border: 0;
+        display: inline;
+        font-size: 2em;
+    }
+    .search-container.Show{
+        background: var(--black-4);
+        width: 100vw;
+        height: 60vh;
+        left: 0;
+        top: calc(100% - 60vh);
+        transform-origin: calc(100% - 60vh);
+    }
+    .search-container.Show button{
+        visibility: hidden;
+        display: none;
+    }
+    .search-container.Show .search{
+        visibility: visible;
+        opacity: 1;
+        top: inherit;
+        bottom: 10px;
+        left: 0;
+        width: 100vw;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .search-container.Show .search input{
+        width: 70%;
+    }
+    .search-container.Show .dataResult{
+        width: 100vw;
+        box-shadow: none;
+        border-top: 1px solid rgba(255, 255, 255, .2);
+        height: calc( 60vh - 50px);
+    }
+    .closeSearch{
+        display: none !important;
+    }
+    .search-container.Show .closeSearch
+    {
+        display: inline !important;
+        position: absolute;
+        visibility: visible;
+        right: 15px;
+        z-index: 12;
+        top: 10px;
+    }
+    .settings-button-mv{
+        right: inherit;
+        left: 184px;
+    }
+    .settings-button-mv a{
+        margin-top: 5px;
+    }
+}
+@media (max-width: 460px){
+    .btn-visibility{
+        display: none !important;
+    }
+    #ContainerContent.headerReproductor .header-menu{
+        left: 0 !important;
+    }
+    .header
+    {
+        position: relative;
+    }
+    .header-top{
+        position: relative;
+        justify-content:center;
+    }
+    .AoDesuLogo
+    {
+        margin-left: 0 !important;
+    }
+    .HeaderMovil .header .header-menu{
+        position: fixed ;
+        width: 100% !important;
+        left: 0 ;
+        bottom: 0 ;
+        top: auto;
+        height: 60px ;
+        border-top: 1px solid rgba(255, 255, 255, .2);
+        z-index: 9;
+    }
+    .header-menu ul{
+        flex-flow: row nowrap;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-menu ul li{
+        width: calc(100% / 5);
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-bottom: 0;
+    }
+    .header-menu ul li a{
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .profile-header-cellphone .profile-container
+    {
+        width: 100vw;
+        height: 320px;
+        bottom: -320px;
+        top: inherit;
+        left: 0;
+    }
+    .profile-header-cellphone.Show .profile-container
+    {
+        bottom: 13px;
+    }
+    .profile-header-cellphone .profile-img {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 15px;
+        cursor: pointer;
+        top: calc(-100% - -200px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .4);
+    }
+    .profile-header-cellphone .profile-info
+    {
+        width: calc(100% - 20px);
+    }
+    .profile-header-cellphone .profile-btn button
+    {
+        width: 100%;
+    }
+    .search-container > button {
+        display: none;
+    }
+    .btnSearchMovil
+    {
+        font-size: 1em;
+    }
+    .search-container.Show .closeSearch{
+        top: -40px;
+    }
+    .settings-button-mv{
+        left: inherit;
+        right: 20px;
+    }
+    .settings-button-mv a{
+        top: -5px;
+    }
+}
