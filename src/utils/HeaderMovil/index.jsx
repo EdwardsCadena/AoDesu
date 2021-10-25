@@ -114,7 +114,7 @@ const HeaderMovil = () => {
                         <li><Link to='/emision' onClick={btnVisibilityRemove}><i className="fas fa-clock"></i><span>En Emisión</span></Link></li>
                         <li><button className="btnSearchMovil" onClick={ShowbtnSearch}><i className="fas fa-search"></i></button></li>
                         <li><Link to='/directory' onClick={btnVisibilityRemove}><i className="fas fa-stream"></i><span>Directorio</span></Link></li>
-                        <li><Link to='/AboutUs' onClick={btnVisibilityRemove}><i className="fas fa-address-card"></i><span>Nosotros</span></Link></li>
+                        <li><Link to='/about-us' onClick={btnVisibilityRemove}><i className="fas fa-address-card"></i><span>Nosotros</span></Link></li>
                     </ul>
                 </nav>
             </div>

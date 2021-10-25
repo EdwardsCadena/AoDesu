@@ -44,7 +44,7 @@ const Footer = () => {
                     <div className="sec quickLinks">
                         <h2>Enlaces rápidos</h2>
                         <ul>
-                            <li><Link to="/aboutus">Quienes Somos</Link></li>
+                            <li><Link to="/about-us">Quienes Somos</Link></li>
                             <li><Link to="/FAQ">FAQ</Link></li>
                             <li><Link to="/policies-and-privacy">Politicas de Privacidad</Link></li>
                             <li><Link to="/help">Ayuda</Link></li>

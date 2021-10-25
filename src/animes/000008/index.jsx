@@ -46,6 +46,7 @@ class Anime000008 extends Component {
                         genres={Animes[id].genres}
                         genreSearch={Animes[id].genres.url}
                         url={Animes[id].url}
+                        background={"url('" + Animes[id].background + "')"}
                     />
                     <div className="ao-caps-container">
                         <CapsList 

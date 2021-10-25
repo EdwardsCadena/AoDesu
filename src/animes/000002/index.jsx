@@ -16,6 +16,10 @@ const Seasons = () => {
     )
 }
 
+const background = Animes[id].background;
+
+console.log(background)
+
 class Anime000002 extends Component {
     
     componentDidMount(){
@@ -46,6 +50,7 @@ class Anime000002 extends Component {
                         genres={Animes[id].genres}
                         genreSearch={Animes[id].genres.url}
                         url={Animes[id].url}
+                        background={"url('" + Animes[id].background + "')"}
                     />
                     <div className="ao-caps-container">
                         <CapsList 

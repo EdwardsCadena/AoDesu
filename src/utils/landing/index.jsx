@@ -23,7 +23,7 @@ function LandingAnime(props){
             <ShareModal
                 url={props.url}
             />
-            <div className={"ao-anime-banner " + props.class}>
+            <div className={"ao-anime-banner"} style={{backgroundImage: props.background}}>
                 <div className="ao-banner-gradient"></div>
             </div>
             <div className="ao-anime-info-banner">
@@ -38,12 +38,8 @@ function LandingAnime(props){
                     <div className="info-anime-stars">
                         <div>                                    
                             <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star-half-alt"></i>
                         </div>
-                        {props.stars}
+                        <span className="stars-data">{props.stars}</span>
                     </div>
                 </div>
                 <div className="ao-info-flex">

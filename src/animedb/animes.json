@@ -2,7 +2,7 @@
     {
         "id": 0,
         "type": "Anime",
-        "class": "a000000",
+        "background": "https://i.ibb.co/Jt3bYWn/kimetsu-no-yaiba-background.jpg",
         "name": "Kimetsu no Yaiba",
         "url": "/kimetsu-no-yaiba",
         "CapsN": "26",
@@ -14,7 +14,7 @@
         "year": "2016",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "4.8 Estrellas",
+        "stars": "4.8",
         "mangaUrl": "/kimetsu-no-yaiba",
         "genres": [
             {
@@ -43,7 +43,7 @@
         "id": 1,
         "type": "Anime",
         "name": "Ijiranaide, Nagatoro-san",
-        "class": "a000001",
+        "background": "https://i.ibb.co/bRnfMHD/ijiranaide-nagoro-san-background.jpg",
         "url": "/ijiranaide-nagatoro-san",
         "CapsN": "12",
         "tall-cover-anime": "https://i.ibb.co/VtnXPTW/Ijiranaide-nagatoro-san-normal.jpg",
@@ -54,7 +54,7 @@
         "year": "2021",
         "season": "primavera",
         "seasonIcon": "fas fa-spa",
-        "stars": "4.6 Estrellas",
+        "stars": "4.6",
         "mangaUrl": "/ijiranaide-nagatoro-san",
         "genres": [
             {
@@ -75,7 +75,7 @@
         "id": 2,
         "type": "Anime",
         "name": "Keijo!!!!!!!!",
-        "class": "a000002",
+        "background": "https://i.ibb.co/qRLCkqb/keijo-background.webp",
         "url": "/keijo",
         "CapsN": "12",
         "tall-cover-anime": "https://i.ibb.co/rp3xms5/keijo.jpg",
@@ -86,7 +86,7 @@
         "year": "2016",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "4.6 Estrellas",
+        "stars": "4.6",
         "mangaUrl": "/keijo",
         "genres": [
             {
@@ -107,7 +107,7 @@
         "id": 3,
         "type": "Anime",
         "name": "Jibaku Shounen Hanako-kun",
-        "class": "a000003",
+        "background": "https://i.pinimg.com/originals/18/12/bc/1812bc37b4cef2c3bb5cb65654de8f43.jpg",
         "url": "/jibaku-shounen-hanako-kun",
         "CapsN": "12",
         "tall-cover-anime": "https://i.ibb.co/x7gxY5p/Jibaku-shonen-hanako-kun-normal.jpg",
@@ -118,7 +118,7 @@
         "year": "2020",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "4.7 Estrellas",
+        "stars": "4.7",
         "mangaUrl": "/jibaku-shounen-hanako-kun",
         "genres": [
             {
@@ -143,7 +143,7 @@
         "id": 4,
         "type": "Anime",
         "name": "The IDOLM@STER: Cinderella Girls",
-        "class": "a000004",
+        "background": "https://i.ibb.co/q0Kc4Jt/the-idolmaster-cinderella-girls.jpg",
         "url": "/the-idolmasters-cinderella-girls",
         "CapsN": "13",
         "tall-cover-anime": "https://i.ibb.co/rvctZvq/the-idolmaster-cinderella-girls.jpg",
@@ -154,7 +154,7 @@
         "year": "2015",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "4.7 Estrellas",
+        "stars": "4.7",
         "mangaUrl": "/the-idolmasters-cinderella-girls",
         "genres": [
             {
@@ -175,7 +175,7 @@
         "id": 5,
         "type": "Anime",
         "name": "Tonikaku Kawaii",
-        "class": "a000005",
+        "background": "https://i.ibb.co/ry6vrLD/tonikaku-kawaii-background.jpg",
         "url": "/tonikaku-kawaii",
         "CapsN": "12",
         "tall-cover-anime": "https://i.ibb.co/VtwRYSD/tonikaku-kawaii-tall.jpg",
@@ -186,7 +186,7 @@
         "year": "2020",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "4 Estrellas",
+        "stars": "4",
         "mangaUrl": "/tonikaku-kawaii",
         "genres": [
             {
@@ -207,7 +207,7 @@
         "id": 6,
         "type": "Anime",
         "name": "Bokutachi wa Benkyou ga Dekinai",
-        "class": "a000006",
+        "background": "https://i.ibb.co/f8jMsyF/bokutachi-wa-benkyou-ga-dekinai-background.jpg",
         "url": "/bokutachi-wa-benkyou-ga-dekinai",
         "CapsN": "13",
         "tall-cover-anime": "https://i.ibb.co/0YLyhFF/bokutachi-wa-benkyou-ga-dekinai-wide-tall.jpg",
@@ -218,7 +218,7 @@
         "year": "2019",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "3.6 Estrellas",
+        "stars": "3.6",
         "mangaUrl": "/bokutachi-wa-benkyou-ga-dekinai",
         "genres": [
             {
@@ -247,7 +247,7 @@
         "id": 7,
         "type": "Anime",
         "name": "Bokutachi wa Benkyou ga Dekinai 2",
-        "class": "a000007",
+        "background": "https://i.ibb.co/HPG4Wdy/bokutachi-wa-benkyou-ga-dekinai-2-background.jpg",
         "url": "/bokutachi-wa-benkyou-ga-dekinai-2",
         "CapsN": "13",
         "tall-cover-anime": "https://i.ibb.co/8sDp6pk/bokutachi-wa-benkyou-ga-dekinai-2-wide-tall.jpg",
@@ -258,7 +258,7 @@
         "year": "2019",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "3.6 Estrellas",
+        "stars": "3.6",
         "mangaUrl": "/bokutachi-wa-benkyou-ga-dekinai-2",
         "genres": [
             {
@@ -287,7 +287,7 @@
         "id": 8,
         "type": "Anime",
         "name": "Neon Genesis Evangelion",
-        "class": "a000008",
+        "background": "https://i.ibb.co/S7ZvvKQ/neon-genesis-evangelion-background.jpg",
         "url": "/neon-genesis-evangelion",
         "CapsN": "26",
         "tall-cover-anime": "https://i.ibb.co/2cP4fgw/neon-genesis-evangelion-tall.jpg",
@@ -298,7 +298,7 @@
         "year": "1995",
         "season": "invierno",
         "seasonIcon": "far fa-snowflake",
-        "stars": "4.7 Estrellas",
+        "stars": "4.7",
         "mangaUrl": "/neon-genesis-evangelion",
         "genres": [
             {

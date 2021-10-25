@@ -72,7 +72,8 @@ body.lowPerformance .headerReproductor #FooterCaps.show .FooterCaps,
 body.lowPerformance .FooterCaps,
 body.lowPerformance .sci li a:hover,
 body.lowPerformance .search
-body.lowPerformance .caps-options button{
+body.lowPerformance .caps-options button,
+body.lowPerformance .caps-options button:hover{
 	transition: none !important;
 }
 code {
@@ -133,18 +134,7 @@ a{
 	--ao-watch-space-below-player: 136px;
 
 	--ao-watch-max-player-width: calc( ( 100vh - (var(--ao-watch-masthead-heigth) + var(--ao-margin-6x) + var(--ao-watch-space-below-player) ) )*( var(--ao-watch-width-ratio) / var(--ao-watch-height-ratio)) );
-	--ao-watch-min-player-width: calc( var(--ao-watch-min-player-height) * (var(--ao-watch-width-ratio) / var(--ao-watch-height-ratio) ));
-	
-	--ao-banner-000000: url(https://i.ibb.co/XXqHQH2/Kimetsu-no-yaiba-season1-largo.jpg);
-	--ao-banner-000001: url(https://i.ibb.co/Cn4tT5Z/Ijiranaide-nagatoro-san-largo.jpg);
-	--ao-banner-000002: url(https://i.ibb.co/2NTCPs0/keijo.jpg);
-	--ao-banner-000003: url(https://i.ibb.co/12gpsNH/Jibaku-shonen-hanako-kun-largo.jpg);
-	--ao-banner-000004: url(https://i.ibb.co/rdYwxct/the-idolmaster-cinderella-girls.jpg);
-	--ao-banner-000005: url(https://i.ibb.co/jV7bxsN/tonikaku-kawaii-background.jpg);
-	--ao-banner-000006: url(https://i.ibb.co/b3wCw9x/bokutachi-wa-benkyou-ga-dekinai-background.jpg);
-	--ao-banner-000007: url(https://i.ibb.co/ggk64Nf/bokutachi-wa-benkyou-ga-dekinai-2-background.jpg);
-	--ao-banner-000008: url(https://occ-0-4440-3418.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABT0C2ClPGjx3fubwHbVybo8irFWb24rq36ff2VfBH97-33QMwMtHI8A1t_mFf8UuQCikv9cm7-OZNglUxsWdWl0dIpsN.jpg?r=e73);
-}	
+	--ao-watch-min-player-width: calc( var(--ao-watch-min-player-height) * (var(--ao-watch-width-ratio) / var(--ao-watch-height-ratio) ));}	
 @media(max-height: 660px) {
 	:root
 	{
@@ -386,6 +376,11 @@ a{
 	margin: 0 auto;
 }
 /* Anime Page */
+.ao-titles-home > h1{
+	font-size: 1.5em;
+	font-weight: 500;
+	font-family: var(--font-alternative);
+}
 .ao-anime{
 	width: 100%;
 }
@@ -472,17 +467,6 @@ body.light .ao-anime-info .ao-anime-info-banner .ao-info-details{
     background-repeat: no-repeat;
     background-position: center bottom;
 }
-/* BANNERS */
-.a000000{background-image: var(--ao-banner-000000);}
-.a000001{background-image: var(--ao-banner-000001);}
-.a000002{background-image: var(--ao-banner-000002);}
-.a000003{background-image: var(--ao-banner-000003);}
-.a000004{background-image: var(--ao-banner-000004);}
-.a000005{background-image: var(--ao-banner-000005);}
-.a000006{background-image: var(--ao-banner-000006);}
-.a000007{background-image: var(--ao-banner-000007);}
-.a000008{background-image: var(--ao-banner-000008);}
-
 .ao-anime-info .ao-anime-banner .ao-banner-gradient
 {
 	position: absolute;
@@ -679,9 +663,9 @@ body.light .seeMore:hover{
 }
 .info-anime-stars
 {
-	width: auto;
+	width: 50px;
 	background: var(--black-3);
-	padding: 10px 15px;
+	padding: 5px 0;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
@@ -689,8 +673,9 @@ body.light .seeMore:hover{
 	margin: 0 5px 5px;
 	cursor: default;
 	position: absolute;
-	left: -5px;
-	top: 0;
+	left: 0;
+	border-radius: 10px;
+	top: 5px;
 	color: #fff;
 }
 .info-anime-genres
@@ -775,8 +760,11 @@ body.light .info-anime-genres > div:hover{
 }
 .caps-options
 {
-	background: var(--black-3);
+	background: var(--black-2);
 	border-bottom: 1px solid rgba(255,255,255,.3);
+}
+body.light .caps-options{
+	background: var(--light-1);
 }
 .caps-options .ToUpper,
 .caps-options.lastFirst .ToLower{
@@ -795,8 +783,14 @@ body.light .info-anime-genres > div:hover{
 	cursor: pointer;
 	transition: .1s;
 }
+body.light .caps-options button{
+	color: var(--black-1);
+}
 .caps-options button:hover{
-	background: var(--black-1);
+	background: var(--black-3);
+}
+body.light .caps-options button:hover{
+	background: var(--light-2);
 }
 .caps-options i{
 	margin-right: 5px;
@@ -1056,8 +1050,8 @@ body.light .caps-title i{
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100vw;
-	height: 100vh;
+	width: 200vw;
+	height: 200vh;
 	background: rgba(0, 0, 0, .6);
 	z-index: 5;
 }
@@ -1248,6 +1242,7 @@ body.light .ao-anime-popUp.Show ~ .content .CapsList{
 {
 	font-size: 1.5em;
 }
+
 .CapsSelect > .hoverBtnOps,
 .CapsList > .hoverBtnOps,
 .DownloadCapBtn > .hoverBtnOps
@@ -1286,6 +1281,21 @@ body.light .ao-anime-popUp.Show ~ .content .CapsList{
 }
 body.light .CapsBtns:hover{
 	background: rgba(0,0,0,.2);
+}
+.BtnCap1,
+.BtnCap1 div
+{
+	visibility: hidden !important;
+}
+.mg-l-50
+{
+	margin-left: 68px !important;
+}
+.Last{
+	display: none !important;
+}
+.LastCap ~ .Discover{
+	display: flex !important;
 }
 .DownloadCapBtn:hover
 {
@@ -1358,13 +1368,9 @@ body.light .ao-anime-popUp > .ao-caps-container{
 	position: sticky;
     top: 60px;
 }
-.mg-l-50
-{
-	margin-left: 50px !important;
-}
 .caps-selector
 {
-    width: 100%;
+	width: calc(100% - var(--ao-margin-6x));
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -1493,6 +1499,7 @@ body.light .OptionsBtn{
 	justify-content: center;
 	align-items: center;
 	flex-flow: column;
+	text-align: center;
 }
 .videoContent
 {
@@ -2609,10 +2616,16 @@ body.lowPerformance #performance-config .button-container span{
 	}
 }
 @media (max-width: 1024px){
+	.DownloadCapBtn:hover,
+	.CapsBtns:hover{
+		background: transparent;
+	}
 	.caps-selector
 	{
 		overflow-x: scroll;
+		justify-content: flex-end;
 		overflow-y: hidden;
+		width: calc(100% - 24px);
 	}
 	.ao-cell-container,  .ao-cell-containerMovies
 	{
@@ -2706,20 +2719,19 @@ body.lowPerformance #performance-config .button-container span{
 	}
 	.CapsBtns
 	{
-		background: var(--black-1);
-		border-radius: 50px;
+		background: transparent;
+		border-radius: 0;
 		width: auto;
-		min-width: 100px;
+		min-width: auto;
 		height: auto;
 		display: flex;
 		flex-flow: column;
-		border: 1px solid rgba(255,255,255,.2) !important;
+		border: 1px solid transparent !important;
 	}
 	.CapsBtns i
 	{
-		position: absolute;
-		color: rgb(0,255, 255, .06);
-		font-size: 2em;
+		color: #fff;
+		font-size: .8em;
 	}
 	.OptionsBtn
 	{
@@ -2749,8 +2761,11 @@ body.lowPerformance #performance-config .button-container span{
 		background: transparent;
 		box-shadow: none;
 		width: 100%;
+		font-size: 14px;
 		position: relative;
 		cursor: pointer;
+		padding: 0;
+		margin-top: 5px;
 	}
 	.hoverBtnOps::before
 	{
@@ -2941,7 +2956,6 @@ body.lowPerformance #performance-config .button-container span{
 	}
 	.caps-selector
 	{
-		justify-content: flex-start;
 		margin-left: 0;
 		overflow-x: scroll;
 	}
@@ -3026,6 +3040,9 @@ body.lowPerformance #performance-config .button-container span{
 	}
 }
 @media (max-width: 460px) {
+	.caps-selector{
+		justify-content: flex-start;
+	}
 	.UpBtn{
 		bottom: 70px;
 		right: inherit;
@@ -3052,7 +3069,8 @@ body.lowPerformance #performance-config .button-container span{
 		font-size: 16px;
 	}
 	.ao-caps-container .caps, .ao-caps-container .seasons{
-		overflow: hidden;
+		overflow-x: hidden;
+		overflow-y: scroll;
 	}
 	.profile-header-cellphone .profile-info
 	{
@@ -3170,7 +3188,10 @@ body.lowPerformance #performance-config .button-container span{
 		min-width: inherit !important;
 	}
 	.CapsBtns{
-		min-width: 130px;
+		min-width: 65px;
+	}
+	.OptionsBtn{
+		min-width: inherit;
 	}
 	.ao-img-cell-caps{
 		height: auto;

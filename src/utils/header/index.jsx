@@ -104,7 +104,7 @@ const Header = () => {
                         <li className="up" onClick={onClickUp()}><Link to='/'><i className="fas fa-home"></i><span>Principal</span></Link></li>
                         <li><Link to='/emision'><i className="fas fa-clock"></i><span>En Emisión</span></Link></li>
                         <li><Link to='/directory'><i className="fas fa-stream"></i><span>Directorio</span></Link></li>
-                        <li><Link to='/AboutUs'><i className="fas fa-address-card"></i><span>Nosotros</span></Link></li>
+                        <li><Link to='/about-us'><i className="fas fa-address-card"></i><span>Nosotros</span></Link></li>
                         <li><Link to='/settings'><i className="fas fa-cog"></i><span>Ajustes</span></Link></li>
                     </ul>
                 </nav>
