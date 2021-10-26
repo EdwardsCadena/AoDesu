@@ -50,7 +50,7 @@ class AboutUs extends Component {
 
                             <div className="teamCard">
                                 <div className="cardImg">
-                                    <img src="https://i.ibb.co/N6bVy8q/72a6b31487c384bdea1c4d59b946fbb3.png" alt="Juan" />
+                                    <img src="https://i.ibb.co/jTZds1X/juan.jpg" alt="Juan" />
                                 </div>
                                 <div className="cardName">
                                     <span className="name">Juan</span>
