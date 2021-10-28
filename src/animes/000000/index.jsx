@@ -4,6 +4,7 @@ import Animes from '../../animedb/animes.json';
 import CapsContent from './caps.json';
 import LandingAnime from '../../utils/landing/index';
 import CapsList from '../../utils/landing/caps';
+import { AnchorOutlined } from '@mui/icons-material';
 const id = 0;
 const url = Animes[id].url;
 const animeName = Animes[id].name;
@@ -47,12 +48,14 @@ class Anime000000 extends Component {
                         genreSearch={Animes[id].genres.url}
                         url={Animes[id].url}
                         background={"url('" + Animes[id].background + "')"}
+                        OriginalName={Animes[id].originalName}
                     />
                     <div className="ao-caps-container">
                         <CapsList 
                             CapsList={CapsContent}
                             identificator={Animes[id].id}
                             name={Animes[id].name}
+                            animeId={Animes[id].id}
                             url={url}
                         />
                         <Seasons />

@@ -11,7 +11,7 @@ function AnimeCaps(props){
     return (
         <div className="ao-anime-popUp">
             <div className="Clickable" onClick={CapsListComponent}></div>
-            <div className="ao-caps-container">
+            <div className="ao-caps-container reproductorZone">
                 <div className="caps">
                     <h3>Listado de Capitulos</h3>
                     <i className="fas fa-times CerrarCapsListBtn" onClick={CapsListComponent}></i>

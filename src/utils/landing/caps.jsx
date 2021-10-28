@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CapsCookies from '../cookies/capsCookies.js';
 
 function listOrder(){
     const CapsContainer = document.querySelector('.caps-list');
@@ -42,19 +43,52 @@ function CapsList(props){
                     </p>
                                     
                     <Link to={props.url + e['cap-url']}></Link>
-
-                    <span className={"ViewContainer" + e.cap + " ViewButton"}>
-                        <i className="fas fa-eye" id="Viewed"></i>
-                        <i className="fas fa-eye-slash" id="NotViewed"></i>
-                        <div className="HoverNotice">
-                            Esta función aun no esta disponible.
-                        </div>
-                    </span>
+                    <SaveView 
+                        cap={e.cap}
+                        animeId={props.animeId}
+                        id={props.identificator}
+                    />
+                    <div className="OvaCapsList">
+                        {e.ova}
+                    </div>
                 </div>
              ) }
              </div>
         </div>
     )
+}
+
+
+function SaveView(props){
+    const id = props.animeId;
+    const caps = props.cap;   
+    
+    return(
+        <span className={"ViewContainer ViewButton"} 
+        id={"a" + props.id.toString() + props.cap} 
+        onClick={function SaveCookies(){
+            const identi = document.getElementById("a" + props.id.toString() + props.cap);
+            
+            if(localStorage.getItem(id.toString() + "Cap" + caps, "true")){
+                localStorage.removeItem(id.toString() + "Cap" + caps, "true");
+                identi.classList.remove('visto');
+            }else{
+                localStorage.setItem(id.toString() + "Cap" + caps, "true");
+                identi.classList.add('visto');
+            }
+            console.log(caps);
+            console.log(id);
+            console.log(localStorage.getItem(id.toString() + "Cap" + caps, "true"))
+        }}
+        >
+            <i className="fas fa-eye" id="Viewed"></i>
+            <i className="fas fa-eye-slash" id="NotViewed"></i>
+            <div className="HoverNotice">
+                Esta función aun no esta disponible.
+            </div>
+        </span>  
+    )
+
 }
 
 export default CapsList;

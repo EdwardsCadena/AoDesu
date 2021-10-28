@@ -1,5 +1,13 @@
 [
     {
+        "id": 10,
+        "anime": "K-ON!",
+        "url": "/k-on!",
+        "cover-anime": "https://i.ibb.co/74thQ1z/k-on-wide.jpg",
+        "language": "Subtitulado",
+        "verified": "fas fa-check"
+    },
+    {
         "id": 8,
         "anime": "Neon Genesis Evangelion",
         "url": "/neon-genesis-evangelion",

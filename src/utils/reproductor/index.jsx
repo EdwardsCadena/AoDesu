@@ -14,7 +14,7 @@ function FacebookCircularProgress(props) {
               theme.palette.grey[theme.palette.mode === 'light' ? 200 : 800],
           }}
           size={40}
-          thickness={4}
+          thickness={0}
           {...props}
           value={100}
         />

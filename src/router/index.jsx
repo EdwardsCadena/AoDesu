@@ -44,7 +44,11 @@ import { Anime000007Cap1, Anime000007Cap2, Anime000007Cap3, Anime000007Cap4, Ani
     //
 import Anime000008 from '../animes/000008/index';
 import { Anime000008Cap1, Anime000008Cap2, Anime000008Cap3, Anime000008Cap4, Anime000008Cap5, Anime000008Cap6, Anime000008Cap7, Anime000008Cap8, Anime000008Cap9, Anime000008Cap10, Anime000008Cap11, Anime000008Cap12, Anime000008Cap13, Anime000008Cap14, Anime000008Cap15, Anime000008Cap16, Anime000008Cap17, Anime000008Cap18, Anime000008Cap19, Anime000008Cap20, Anime000008Cap21, Anime000008Cap22, Anime000008Cap23, Anime000008Cap24, Anime000008Cap25, Anime000008Cap26 } from '../animes/000008/caps.jsx';
-
+    //
+import Anime000009 from '../animes/000009';
+    //
+import Anime000010 from '../animes/000010';
+import { Anime000010Cap1, Anime000010Cap2, Anime000010Cap3, Anime000010Cap4, Anime000010Cap5, Anime000010Cap6, Anime000010Cap7, Anime000010Cap8, Anime000010Cap9, Anime000010Cap10, Anime000010Cap11, Anime000010Cap12, Anime000010Cap13, Anime000010Cap14, } from '../animes/000010/caps.jsx';
 const AoDesuApp = () => 
 <Router>
     <Switch>
@@ -212,7 +216,24 @@ const AoDesuApp = () =>
             <AppRoute path="/neon-genesis-evangelion/cap25" exact component={Anime000008Cap25} layout={ReproductorLayout}></AppRoute>
             <AppRoute path="/neon-genesis-evangelion/cap26" exact component={Anime000008Cap26} layout={ReproductorLayout}></AppRoute>
 
-
+        <AppRoute path="/lucky-star" exact component={Anime000009} layout={GeneralLayout}></AppRoute>
+        
+        <AppRoute path="/k-on!" exact component={Anime000010} layout={GeneralLayout}></AppRoute>
+            <AppRoute path="/k-on!/cap1" exact component={Anime000010Cap1} layout={ReproductorLayout}></AppRoute>
+            <AppRoute path="/k-on!/cap2" exact component={Anime000010Cap2} layout={ReproductorLayout}></AppRoute>
+            <AppRoute path="/k-on!/cap3" exact component={Anime000010Cap3} layout={ReproductorLayout}></AppRoute>
+            <AppRoute path="/k-on!/cap4" exact component={Anime000010Cap4} layout={ReproductorLayout}></AppRoute>
+            <AppRoute path="/k-on!/cap5" exact component={Anime000010Cap5} layout={ReproductorLayout}></AppRoute>
+            <AppRoute path="/k-on!/cap6" exact component={Anime000010Cap6} layout={ReproductorLayout}></AppRoute>
+            <AppRoute path="/k-on!/cap7" exact component={Anime000010Cap7} layout={ReproductorLayout}></AppRoute>
+            <AppRoute path="/k-on!/cap8" exact component={Anime000010Cap8} layout={ReproductorLayout}></AppRoute>
+            <AppRoute path="/k-on!/cap9" exact component={Anime000010Cap9} layout={ReproductorLayout}></AppRoute>
+            <AppRoute path="/k-on!/cap10" exact component={Anime000010Cap10} layout={ReproductorLayout}></AppRoute>
+            <AppRoute path="/k-on!/cap11" exact component={Anime000010Cap11} layout={ReproductorLayout}></AppRoute>
+            <AppRoute path="/k-on!/cap12" exact component={Anime000010Cap12} layout={ReproductorLayout}></AppRoute>
+            <AppRoute path="/k-on!/cap13" exact component={Anime000010Cap13} layout={ReproductorLayout}></AppRoute>
+            <AppRoute path="/k-on!/cap14" exact component={Anime000010Cap14} layout={ReproductorLayout}></AppRoute>
+        
         <AppRoute component={Err404} layout={GeneralLayout}></AppRoute>    
     </Switch>
 </Router>

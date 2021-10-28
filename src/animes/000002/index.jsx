@@ -51,12 +51,14 @@ class Anime000002 extends Component {
                         genreSearch={Animes[id].genres.url}
                         url={Animes[id].url}
                         background={"url('" + Animes[id].background + "')"}
+                        OriginalName={Animes[id].originalName}
                     />
                     <div className="ao-caps-container">
                         <CapsList 
                             CapsList={CapsContent}
                             identificator={Animes[id].id}
                             name={Animes[id].name}
+                            animeId={Animes[id].id}
                             url={url}
                         />
                         <Seasons />

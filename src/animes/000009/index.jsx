@@ -4,35 +4,19 @@ import Animes from '../../animedb/animes.json';
 import CapsContent from './caps.json';
 import LandingAnime from '../../utils/landing/index';
 import CapsList from '../../utils/landing/caps';
-const id = 7;
+const id = 9;
 const url = Animes[id].url;
 const animeName = Animes[id].name;
 
 const Seasons = () => {
     return (
-        <div className="seasons cronology">
-            <div className="title-cronology">
-                <h4><i className="fas fa-angle-double-left"></i> Anterior Temporada </h4>
-            </div>
-            <div className="cronology-container nextSeason">
-                <div className="content-container">
-                    <div className="cronology-img">
-                        <img src={Animes[id - 1]['wide-cover-anime']} alt="" />
-                    </div>
-                    <div className="cronology-txt">
-                        <p>{Animes[id - 1].name}</p>
-                    </div>
-                    <div className={"result-type " + Animes[id - 1].type}>
-                          {Animes[id - 1].type}
-                      </div>
-                    <Link to={Animes[id - 1].url}></Link>
-                </div>
-            </div>
+        <div className="seasons">
+            Coming Soon
         </div>
     )
 }
 
-class Anime000007 extends Component {
+class Anime000009 extends Component {
     
     componentDidMount(){
         document.title = "Ver " + Animes[id].name
@@ -81,4 +65,4 @@ class Anime000007 extends Component {
     }
 }
 
-export default Anime000007;
+export default Anime000009;

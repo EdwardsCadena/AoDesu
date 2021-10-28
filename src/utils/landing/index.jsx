@@ -47,7 +47,7 @@ function LandingAnime(props){
                         <div className="ao-info-txt-name">
                             <h1>{props.name}</h1>
                         </div>
-                        <span className="sinopsis-title">Sinopsis</span>
+                        <span className="original-title"><h2>{props.OriginalName}</h2></span>
                         <p className="ao-info-txt-sinopsis">
                             {props.sinopsis}
                         </p>

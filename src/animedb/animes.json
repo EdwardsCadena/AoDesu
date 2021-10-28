@@ -4,6 +4,7 @@
         "type": "Anime",
         "background": "https://i.ibb.co/Jt3bYWn/kimetsu-no-yaiba-background.jpg",
         "name": "Kimetsu no Yaiba",
+        "originalName": "鬼滅の刃",
         "url": "/kimetsu-no-yaiba",
         "CapsN": "26",
         "tall-cover-anime": "https://i.ibb.co/vVW29T6/Kimetsu-no-yaiba-season1-normal.jpg",
@@ -43,6 +44,7 @@
         "id": 1,
         "type": "Anime",
         "name": "Ijiranaide, Nagatoro-san",
+        "originalName": "イジらないで、長瀞さん",
         "background": "https://i.ibb.co/bRnfMHD/ijiranaide-nagoro-san-background.jpg",
         "url": "/ijiranaide-nagatoro-san",
         "CapsN": "12",
@@ -75,6 +77,7 @@
         "id": 2,
         "type": "Anime",
         "name": "Keijo!!!!!!!!",
+        "originalName": "競女!!!!!!!!",
         "background": "https://i.ibb.co/qRLCkqb/keijo-background.webp",
         "url": "/keijo",
         "CapsN": "12",
@@ -107,6 +110,7 @@
         "id": 3,
         "type": "Anime",
         "name": "Jibaku Shounen Hanako-kun",
+        "originalName": "地縛少年花子くん",
         "background": "https://i.pinimg.com/originals/18/12/bc/1812bc37b4cef2c3bb5cb65654de8f43.jpg",
         "url": "/jibaku-shounen-hanako-kun",
         "CapsN": "12",
@@ -143,6 +147,7 @@
         "id": 4,
         "type": "Anime",
         "name": "The IDOLM@STER: Cinderella Girls",
+        "originalName": "アイドルマスタ",
         "background": "https://i.ibb.co/q0Kc4Jt/the-idolmaster-cinderella-girls.jpg",
         "url": "/the-idolmasters-cinderella-girls",
         "CapsN": "13",
@@ -175,6 +180,7 @@
         "id": 5,
         "type": "Anime",
         "name": "Tonikaku Kawaii",
+        "originalName": "トニカクカワイイ",
         "background": "https://i.ibb.co/ry6vrLD/tonikaku-kawaii-background.jpg",
         "url": "/tonikaku-kawaii",
         "CapsN": "12",
@@ -207,6 +213,7 @@
         "id": 6,
         "type": "Anime",
         "name": "Bokutachi wa Benkyou ga Dekinai",
+        "originalName": "ぼくたちは勉強ができない",
         "background": "https://i.ibb.co/f8jMsyF/bokutachi-wa-benkyou-ga-dekinai-background.jpg",
         "url": "/bokutachi-wa-benkyou-ga-dekinai",
         "CapsN": "13",
@@ -247,6 +254,7 @@
         "id": 7,
         "type": "Anime",
         "name": "Bokutachi wa Benkyou ga Dekinai 2",
+        "originalName": "ぼくたちは勉強ができない 2",
         "background": "https://i.ibb.co/HPG4Wdy/bokutachi-wa-benkyou-ga-dekinai-2-background.jpg",
         "url": "/bokutachi-wa-benkyou-ga-dekinai-2",
         "CapsN": "13",
@@ -287,6 +295,7 @@
         "id": 8,
         "type": "Anime",
         "name": "Neon Genesis Evangelion",
+        "originalName": "新世紀エヴァンゲリオン",
         "background": "https://i.ibb.co/S7ZvvKQ/neon-genesis-evangelion-background.jpg",
         "url": "/neon-genesis-evangelion",
         "CapsN": "26",
@@ -323,6 +332,80 @@
             },
             {
                 "genre": "Psicológico",
+                "url": "/"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "type": "Anime",
+        "name": "Lucky☆Star",
+        "originalName": "らき☆すた",
+        "background": "https://i.ibb.co/p1kKbZL/lucky-start-background.jpg",
+        "url": "/lucky-star",
+        "CapsN": "24",
+        "tall-cover-anime": "https://i.ibb.co/WfKc30B/lucky-star-tall.jpg",
+        "wide-cover-anime": "https://i.ibb.co/r2SsvbY/lucky-star-wide.jpg",
+        "sinopsis": "Konata Izumi, una estudiante japonesa de secundaria que a pesar de ser muy inteligente y atlética no esta en ningún club porque según ella esto interferiría con sus verdaderas pasiones: el Anime y los Videojuegos (en especial los MMORPG y juegos para mayores de 18 años). Siempre se la pasa con sus amigas Kagami Hiiragi, Tsukasa Hiiragi, y Miyuki Takara, donde cada una de ellas tienen diferentes características, pero han logrado enlazar una gran amistad, a pesar de que Konata y Kagami se fastidien de vez en cuando. A lo largo de esta historia veremos como se refuerzan los lazos y la amistad de estas inseparables amigas y como son las vidas de los diferentes personas en el país del sol naciente..",
+        "status": "Finalizado",
+        "platform": "TV",
+        "year": "2007",
+        "season": "invierno",
+        "seasonIcon": "far fa-snowflake",
+        "stars": "4.7",
+        "mangaUrl": "/lucky-star",
+        "genres": [
+            {
+                "genre": "Comedia",
+                "url": "/"
+            },
+            {
+                "genre": "Escolares",
+                "url": "/"
+            },
+            {
+                "genre": "Parodia",
+                "url": "/"
+            },
+            {
+                "genre": "Recuentos de la vida",
+                "url": "/"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "type": "Anime",
+        "name": "K-ON!",
+        "originalName": "けいおん!",
+        "background": "https://i.ibb.co/MSzG3hQ/k-on-background.jpg",
+        "url": "/k-on!",
+        "CapsN": "2 Ovas | 12",
+        "tall-cover-anime": "https://i.ibb.co/5kxNCgt/k-on-tall.jpg",
+        "wide-cover-anime": "https://i.ibb.co/74thQ1z/k-on-wide.jpg",
+        "sinopsis": "La historia base se centra en cuatro chicas que asisten a su primer año de preparatoria, en donde tenemos a Yui Hirasawa y su impaciencia en la búsqueda de un club del cual participar. Por otro lado tenemos a Ritsu Tainaka (baterista) quien le propone a su mejor amiga Mío Akiyama (bajista), inscribirse juntas en el club de música ligera del instituto, pero desafortunadamente se enteran que está próximo a ser cerrado debido a que todos sus miembros se habían terminado de graduar el año anterior. Debido a que el mínimo permitido para aprobar un club es de 4 integrantes, Ritsu y Mío tratan desesperadamente de conseguir que el club no sea cerrado, por lo que en el intertanto lograrán reclutar a Tsumugi Kotobuki quien les indica que solo sabe tocar Teclado. Esto significa que solo hace falta un miembro más para tener nuevamente el club en funcionamiento y es aquí donde luego de una larga espera Yui se decide finalmente por un club, precisamente el de música ligera y con esto salvándolo de la extinción. Desafortunadamente el club requiere de la pieza clave de toda banda musical: el guitarrista, y Yui no tiene experiencia alguna con ningún instrumento.",
+        "status": "Finalizado",
+        "platform": "TV",
+        "year": "2009",
+        "season": "invierno",
+        "seasonIcon": "far fa-snowflake",
+        "stars": "4.7",
+        "mangaUrl": "/k-on!",
+        "genres": [
+            {
+                "genre": "Comedia",
+                "url": "/"
+            },
+            {
+                "genre": "Escolares",
+                "url": "/"
+            },
+            {
+                "genre": "Música",
+                "url": "/"
+            },
+            {
+                "genre": "Recuentos de la vida",
                 "url": "/"
             }
         ]
