@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "class": "news1",
+        "img": "https://www.beahero.gg/wp-content/uploads/2021/01/maxresdefault-13-1.jpg",
+        "title": "El anime Megami-ryou no Ryoubo-kun revela su fecha de estreno y confirma versión sin censura",
+        "type": "Anime",
+        "date": "17 de Octubre de 2021",
+        "url": "/news/1"
+    },
+    {
+        "id": 2,
+        "class": "news2",
+        "img": "https://somoskudasai.com/wp-content/uploads/2021/03/portada_kaguya-40.jpg",
+        "title": "Un fanático retiró la censura del OVA de Kaguya-sama: Love is War",
+        "type": "Cultura Otaku",
+        "date": "7 de Octubre de 2021",
+        "url": "/news/2"
+    },
+    {
+        "id": 3,
+        "class": "news3",
+        "img": "https://somoskudasai.com/wp-content/uploads/2021/10/image-54.png",
+        "title": "The Idolmaster: La actriz de voz Runa Narumi envuelta en un escándalo de infidelidad (NTR)",
+        "type": "Japón",
+        "date": "9 de Octubre de 2021",
+        "url": "/news/3"
+    },
+    {
+        "id": 4,
+        "class": "news4",
+        "img": "https://somoskudasai.com/wp-content/uploads/2021/10/image-217.png",
+        "title": "Gotoubun no Hanayome: Las quintillizas inspiran hermosas figuras para una lotería",
+        "type": "Mercancía / Figuras",
+        "date": "28 de Octubre de 2021",
+        "url": "/news/4"
+    },
+    {
+        "id": 5,
+        "class": "news5",
+        "img": "https://somoskudasai.com/wp-content/uploads/2021/10/portada_shirogane-noel-4.jpg",
+        "title": "Hololive: Shirogane Noel relató como fue que perdió su verificación en Twitter",
+        "type": "Cultura Otaku",
+        "date": "28 de Octubre de 2021",
+        "url": "/news/5"
+    }
+]

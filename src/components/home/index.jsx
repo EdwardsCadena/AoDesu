@@ -7,6 +7,7 @@ import Recommended from './scrolls/recommended';
 import News from './scrolls/news';
 import Movies from './scrolls/movies';
 import './index.css';
+import NewsContent from './news/index.jsx';
 import Coming from './scrolls/coming';
 
 export function LeftArrow() {
@@ -56,6 +57,12 @@ class Home extends Component {
                         <h1>¡Recomendados Por Ao!</h1>
                         </div>
                         <Recommended />
+
+                        <div className="ao-titles-home">
+                          <Link to="/news" class="read-more">Leer Más <i className="fas fa-arrow-right"></i></Link>
+                          <h1><span className="beta-advisory">Beta</span>Ultimas Novedades <i className="fas fa-newspaper"></i></h1> 
+                        </div>
+                        <NewsContent />
 
                         <div className="ao-titles-home">
                         <h1>Ultimos Animes</h1>

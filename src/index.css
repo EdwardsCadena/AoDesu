@@ -74,7 +74,8 @@ body.lowPerformance .FooterCaps,
 body.lowPerformance .sci li a:hover,
 body.lowPerformance .search
 body.lowPerformance .caps-options button,
-body.lowPerformance .caps-options button:hover{
+body.lowPerformance .caps-options button:hover,
+body.lowPerformance .type-p{
 	transition: none !important;
 }
 code {
@@ -379,6 +380,9 @@ a{
 	margin: 0 auto;
 }
 /* Anime Page */
+.ao-titles-home{
+	position: relative;
+}
 .ao-titles-home > h1{
 	font-size: 1.5em;
 	font-weight: 500;

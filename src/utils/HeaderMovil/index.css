@@ -19,7 +19,6 @@
 .header-PopUp Button
 {
     position: absolute;
-    background: red;
     left: 0;
     top: 0;
     width: 100%;
@@ -32,7 +31,7 @@
     flex-flow: column wrap;
     position: fixed;
     top: 0;
-    z-index: 9;
+    z-index: 98;
 }
 .header .btn-visibility
 {
