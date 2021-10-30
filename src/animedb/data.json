@@ -85,6 +85,13 @@
         "wide-cover-anime": "https://i.ibb.co/2MccH68/neon-genesis-evangelion-wide.jpg"
     },
     {
+        "id": 10,
+        "type": "Anime",
+        "name": "K-ON!",
+        "url": "/k-on!",
+        "wide-cover-anime": "https://i.ibb.co/74thQ1z/k-on-wide.jpg"
+    },
+    {
         "id": "M0",
         "type": "Pelicula",
         "name": "Kimi no Na Wa",

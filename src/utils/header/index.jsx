@@ -12,6 +12,7 @@ import Button from '@mui/material/Button';
 import './index.css';
 import SearchBar from '../../utils/search/searchBar';
 import Data from '../../animedb/data.json';
+import Settings from '../../components/settings/index.jsx'
 
  // Desplamiento hasta el borde superior de la página
  function onClickUp(){
@@ -80,8 +81,19 @@ function ProfileData(){
     );
 }
 
+function showSettings(){
+    const Settings = document.querySelector('.settings-modal');
+    const Content = document.querySelector('.content');
+
+    Content.classList.add('showSettings');
+
+    Settings.classList.add('show');
+}
+
 const Header = () => {
     return(
+    <>
+    <Settings />
     <div className="HeaderPC">
         <CookiesHeaderBoolean id="HeaderStyles" />
         <div className="header-PopUp" onClick={btnVisibilityRemove}></div>
@@ -105,7 +117,7 @@ const Header = () => {
                         <li><Link to='/emision'><i className="fas fa-clock"></i><span>En Emisión</span></Link></li>
                         <li><Link to='/directory'><i className="fas fa-stream"></i><span>Directorio</span></Link></li>
                         <li><Link to='/about-us'><i className="fas fa-address-card"></i><span>Nosotros</span></Link></li>
-                        <li><Link to='/settings'><i className="fas fa-cog"></i><span>Ajustes</span></Link></li>
+                        <li><button onClick={showSettings}><i className="fas fa-cog"></i><span>Ajustes</span></button></li>
                     </ul>
                 </nav>
             </div>
@@ -113,6 +125,7 @@ const Header = () => {
         </div>
         <ModalAdds />
     </div>
+    </>
     )
 }
 

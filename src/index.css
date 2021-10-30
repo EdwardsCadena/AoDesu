@@ -75,8 +75,15 @@ body.lowPerformance .sci li a:hover,
 body.lowPerformance .search
 body.lowPerformance .caps-options button,
 body.lowPerformance .caps-options button:hover,
-body.lowPerformance .type-p{
+body.lowPerformance .type-p,
+body.lowPerformance .settings-modal,
+body.lowPerformance .content,
+body.lowPerformance .wrapper{
 	transition: none !important;
+}
+.content.showSettings{
+	transform: scale(.9);
+	transition: .2s;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -249,49 +256,55 @@ a{
 }
 /* ///////////////////////////// SCROLLBAR ///////////////////////////// */
 *::-webkit-scrollbar {
-	width: 4px;     /* Tamaño del scroll en vertical */
+	width: 8px;     /* Tamaño del scroll en vertical */
 	height: 0px;    /* Tamaño del scroll en horizontal */
 	/* display: none;  Ocultar scroll */
   }
   
   /* Ponemos un color de fondo y redondeamos las esquinas del thumb */
   *::-webkit-scrollbar-thumb {
-	background: var(--branch);
+	background: var(--black-1);
+	border-radius: 4px;
   }
-  body.light *::-webkit-scrollbar-thumb{
-	  background: var(--black-1);
+  *.light::-webkit-scrollbar-thumb,
+  body.light .caps-list::-webkit-scrollbar-thumb,
+  body.light .settings-content::-webkit-scrollbar-thumb{
+	  background: #bbbfc0;
   }
   /* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
   *::-webkit-scrollbar-thumb:hover {
-	background: #00dddd;
-	box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+	background: var(--black-1);
   }
-  body.light *::-webkit-scrollbar-thumb:hover{
-	  background: var(--black-4);
+  *.light::-webkit-scrollbar-thumb:hover,
+  body.light .caps-list::-webkit-scrollbar-thumb:hover,
+  body.light .settings-content::-webkit-scrollbar-thumb:hover{
+	  background: #bbbfc0;
   }
   /* Cambiamos el fondo cuando esté en active */
   *::-webkit-scrollbar-thumb:active {
-	background-color: #00c0c0;
+	background-color: #0b1014;
   }
   
   /* Ponemos un color de fondo y redondeamos las esquinas del track */
   *::-webkit-scrollbar-track {
-	background: rgba(0,0,0,.5);
+	background: var(--black-3);
   }
 
-  body.light *::-webkit-scrollbar-track{
-	  background: var(--light-2);
+  *.light::-webkit-scrollbar-track,
+  body.light .caps-list::-webkit-scrollbar-track,
+  body.light .settings-content::-webkit-scrollbar-track{
+	  background: #ffffff;
   }
   
   /* Cambiamos el fondo cuando esté en active o hover */
   *::-webkit-scrollbar-track:hover,
   *::-webkit-scrollbar-track:active {
-  background: var(--black-1);
+  background: var(--black-3);
   }
 
-  body.light *::-webkit-scrollbar-track:hover,
-  body.light *::-webkit-scrollbar-track:active {
-	  background: var(--light-2) !important;
+  *.light::-webkit-scrollbar-track:hover,
+  *.light::-webkit-scrollbar-track:active {
+	  background: #ffffff;
   }
 /* PACE JS */
 .pace {
@@ -307,13 +320,16 @@ a{
 }
 
 .pace .pace-progress {
-	background: #00ffff;
+	background: var(--branch);
 	position: fixed;
 	z-index: 2000;
 	top: 0;
 	right: 100%;
 	width: 100%;
 	height: 2px;
+}
+body.light .pace .pace-progress{
+	background: var(--black-1);
 }
 
 .pace .pace-progress-inner {
@@ -977,6 +993,7 @@ body.light .capsDate{
 	font-family: var(--font-legible);
 	font-size: 20px;
 	font-weight: 500;
+	color: #fff;
 	line-height: 26px;
 }
 .nCaps
@@ -1868,7 +1885,10 @@ AboutUs
 	position: absolute;
 	bottom: -5px;
 	left: 0;
-	background: #00FFFF;
+	background: var(--branch);
+}
+body.light .AboutUsTxt h1::before{
+	background: var(--black-1);
 }
 .AboutUs
 {
@@ -1885,6 +1905,10 @@ AboutUs
 	overflow: hidden;
 	margin: 20px 15px;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.35);
+}
+body.light .teamCard{
+	background: transparent;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.12);
 }
 .teamCard .cardImg
 {
@@ -1910,6 +1934,9 @@ AboutUs
 	border: 2px solid #00ffffad;
 	transform: scale(1.02);
 }
+body.light .teamCard:hover .cardImg img{
+	border: 2px solid var(--black-1);
+}
 .cardName
 {
 	display: flex;
@@ -1926,6 +1953,9 @@ AboutUs
 {
 	color: rgba(255, 255, 255, .7);
 }
+body.light .cardName .ocupation{
+	color: #555;
+}
 .teamCard:hover .cardLinks
 {
 	bottom: 0;
@@ -1941,6 +1971,9 @@ AboutUs
 	padding: 20px 0;
 	transition: .2s;
 }
+body.light .cardLinks{
+	background: #fff;
+}
 .cardLinks > a
 {
 	color: rgb(236, 236, 236);
@@ -1951,7 +1984,13 @@ AboutUs
 	display: flex;
 	justify-content:center;
 	align-items: center;
-	border-radius: 5px;
+	border-radius: 50%;
+}
+body.light .cardLinks > a{
+	color: var(--black-1);
+}
+body.light .cardLinks > a:hover{
+	color: #fff;
 }
 .GithubHover:hover
 {
@@ -2462,13 +2501,59 @@ body.light .MuiAppBar-colorPrimary{
 }
 .btnSearchMovil
 {
-	display: none;
+	display: none !important;
 }
 .wide-img
 {
 	display: none;
 }
 /* Settings */
+.settings-modal{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	transform: scale(1.2);
+	background: var(--black-2);
+	visibility: hidden;
+	opacity: 0;
+	transition: .2s;
+}
+.closeSettingsBtn{
+	position: absolute;
+	top: 20px;
+	right: 40px;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, .2);
+	border-radius: 50%;
+	width: 50px;
+	cursor: pointer;
+	overflow: hidden;
+	height: 50px;
+	color: #fff;
+	font-size: 24px;
+}
+.closeSettingsBtn:hover{
+	background: var(--black-4);
+}
+body.light .closeSettingsBtn{
+	border: 2px solid rgba(0, 0, 0, .2);
+	color:rgba(0, 0, 0, .4);
+}
+body.light .closeSettingsBtn:hover{
+	background: #ffffff;
+}
+.settings-modal.show{
+	transform: scale(1);
+	visibility: visible;
+	opacity: 1;
+}
+body.light .settings-modal{
+	background: var(--light-1);
+}
 .settings-container{
 	font-size: 16px;
 	display: flex;
@@ -2476,6 +2561,11 @@ body.light .MuiAppBar-colorPrimary{
 	position: relative;
 	max-width: 900px;
 	margin: 0 auto;
+	margin-top: 50px;
+}
+.settings-content{
+	padding-right: 5px;
+	overflow-y: scroll;
 }
 .settings-title{
 	font-family: var(--font-alternative);

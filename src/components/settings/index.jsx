@@ -29,14 +29,19 @@ function blockedConfingTwo(){
     nothing.classList.toggle('activated');
 }
 
+function closeSettings(){
+    const Settings = document.querySelector('.settings-modal');
+    const Content = document.querySelector('.content');
+
+    Content.classList.remove('showSettings');
+    Settings.classList.remove('show');
+}
+
 class Settings extends Component {
-    componentDidMount(){
-        document.title = "Tus Ajustes";
-    }
     render(){
         return(
-            <div className="content">
-                <div className="content-padd">
+                <div className="settings-modal">
+                    <button className="closeSettingsBtn" onClick={closeSettings}><i className="fas fa-times"></i></button>
                     <div className="settings-container">
                         <div className="settings-title"> 
                             <h2>Ajustes de Preferencias</h2>
@@ -60,7 +65,7 @@ class Settings extends Component {
                                     <button onClick={performanceConfig}></button>
                                 </li>
                                 <li className="settings-list" id="sanctuary-config">
-                                    <h3>Preferencias Sanctuary</h3>
+                                    <h3>Sanctuary</h3>
                                     <p>Al activar esta opción, estas configurando la web, para que al abrir un manga se abra desde la misma pagina (AoDesu) en lugar de abrir en una nueva pestaña la web de mangas (Sanctuary).</p>
                                     <span className="button-container">
                                         <span></span>
@@ -68,7 +73,7 @@ class Settings extends Component {
                                     <button onClick={blockedConfingOne}></button>
                                 </li>
                                 <li className="settings-list" id="notify-confing">
-                                    <h3>Recibir Notificaciones</h3>
+                                    <h3>Notificaciones</h3>
                                     <p>Activala para recibir un anuncio cada que abras la web y estar informado acerca de todos los cambios.</p>
                                     <span className="button-container">
                                         <span></span>
@@ -79,7 +84,6 @@ class Settings extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
         )
     }
 }

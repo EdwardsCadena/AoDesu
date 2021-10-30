@@ -275,14 +275,17 @@ body.light .profile-header-cellphone .profile-btn button{
     position: absolute;
     right: 70px;
 }
-.settings-button-mv a{
+.settings-button-mv button{
     position: absolute;
     display: flex;
     align-items: center;
     color: #fff;
     font-size: 24px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
 }
-body.light .settings-button-mv a{
+body.light .settings-button-mv button{
     color: var(--black-1);
 }
 @media (max-width: 1024px)
@@ -345,6 +348,7 @@ body.light .settings-button-mv a{
         flex-flow: column wrap;
         font-size: .8em;
         margin-bottom: 5px;
+        width: auto;
     }
     .header-menu ul li a span{
         font-size: .55em;
@@ -357,6 +361,14 @@ body.light .settings-button-mv a{
     .header .header-menu.showMovil ul li a span
     {
         font-size: 1em;
+    }
+}
+@media (max-width: 990px){
+    .settings-container{
+        padding: 20px;
+    }
+    .closeSettingsBtn{
+        right: 15px;
     }
 }
 @media (max-width: 670px){

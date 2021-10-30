@@ -26,7 +26,7 @@
 }
 body.light .headerReproductor #FooterCaps.show .FooterCaps,
 body.light .FooterCaps{
-    background: var(--black-1);
+    background: #fff;
 }
 .InvisibleTxt
 {
@@ -57,6 +57,9 @@ body.light .FooterCaps{
     margin-bottom: 15px;
     font-family: var(--font-alternative);
 }
+body.light .FooterContainer h2{
+    color: var(--black-1);
+}
 .FooterContainer h2::before
 {
     content: "";
@@ -67,9 +70,15 @@ body.light .FooterCaps{
     height: 2px;
     background: #00FFFF;
 }
+body.light .FooterContainer h2::before{
+    background: var(--black-1);
+}
 .FooterContainer p
 {
     color: #999;
+}
+body.light .FooterContainer p{
+    color: var(--black-1);
 }
 .sci
 {
@@ -86,7 +95,6 @@ body.light .FooterCaps{
     width: 40px;
     height: 40px;
     margin-right: 10px;
-    background: #222;
 }
 .sci li a
 {
@@ -108,10 +116,16 @@ body.light .FooterCaps{
     background: #00ffff75;
     transition: .1s;
 }
+body.light .sci li a:hover{
+    background: var(--light-1);
+}
 .sci li a i
 {
     color: #fff;
     font-size: 20px;
+}
+body.light .sci li a i{
+    color: var(--black-1);
 }
 .quickLinks
 {
@@ -129,9 +143,15 @@ body.light .FooterCaps{
     margin-bottom: 10px;
     display: inline-block;
 }
+body.light .quickLinks ul li a{
+    color: #555;
+}
 .quickLinks ul li a:hover
 {
     color: #fff;
+}
+body.light .quickLinks ul li a:hover{
+    color: var(--black-1);
 }
 .contact
 {
@@ -153,14 +173,24 @@ body.light .FooterCaps{
     font-size: 20px;
     margin-right: 10px;
 }
+body.light .contact .info li span:nth-child(1){
+    color: var(--black-1);
+}
 .contact .info li span,
 .contact .info li a
 {
     color: #999;
     text-decoration: none;
 }
+body.light .contact .info li span,
+body.light .contact .info li a{
+    color: #555;
+}
 .contact .info li a:hover{
     color: #fff;
+}
+body.light .contact .info li a:hover{
+    color: var(--black-1);
 }
 .copyRightTxt
 {
@@ -172,8 +202,8 @@ body.light .FooterCaps{
     margin-left: 64px;
 }
 body.light .copyRightTxt{
-    background: var(--black-2);
-    color: #fff;
+    background: var(--light-1);
+    color: var(--black-1);
 }
 .FooterBackground
 {

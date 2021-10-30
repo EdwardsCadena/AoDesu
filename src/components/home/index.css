@@ -101,7 +101,6 @@ body.light .ao-home-alert > i{
     padding-bottom: 40px;
 	position: relative;
 	z-index: 0;
-	border: 1px solid transparent;
 	border-radius: 5px;
 	margin-right: 5px;
 	transition: .05s;
@@ -110,7 +109,6 @@ body.light .ao-home-alert > i{
 .ao-cell-containerMovies:hover
 {
 	background: rgba(0,0,0,.2);
-	border: 1px solid rgba(255,255,255,.1);
 	box-shadow: 0 0 4px rgba(0, 0, 0, .5);
 }
 body.light .ao-cell-container:hover,

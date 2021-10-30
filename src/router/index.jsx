@@ -11,8 +11,8 @@ import ReproductorLayout from '../layouts/reproductor/index';
 
 // Components / Views
 import Home from '../components/home/index.jsx';
+import News from '../components/news';
 import Directory from '../components/directory/index.jsx'
-import Settings from '../components/settings/index.jsx';
 import AboutUs from '../components/about-us/index.jsx';
 import FAQ from '../components/FAQ';
 import Err404 from '../components/404/index';
@@ -53,7 +53,7 @@ const AoDesuApp = () =>
 <Router>
     <Switch>
         <AppRoute path="/" exact component={Home} layout={GeneralLayout}></AppRoute>
-        <AppRoute path="/settings" exact component={Settings} layout={GeneralLayout}></AppRoute>
+        <AppRoute path="/news" exact component={News} layout={GeneralLayout}></AppRoute>
         <AppRoute path="/directory" exact component={Directory} layout={GeneralLayout}></AppRoute>
         <AppRoute path="/about-us" exact component={AboutUs} layout={GeneralLayout}></AppRoute>
         <AppRoute path='/FAQ' exact component={FAQ} layout={GeneralLayout}></AppRoute>

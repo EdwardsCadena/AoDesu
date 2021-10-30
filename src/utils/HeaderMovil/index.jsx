@@ -11,6 +11,7 @@ import Button from '@mui/material/Button';
 import './index.css';
 import SearchBar from '../../utils/search/searchBar';
 import Data from '../../animedb/data.json';
+import Settings from '../../components/settings';
 
  // Desplamiento hasta el borde superior de la página
  function onClickUp(){
@@ -78,9 +79,19 @@ function RemoveBtnSearch(){
     const SearchContainer = document.querySelector('.search-container');
     SearchContainer.classList.remove('Show');
 }
+function showSettings(){
+    const Settings = document.querySelector('.settings-modal');
+    const Content = document.querySelector('.content');
+
+    Content.classList.add('showSettings');
+
+    Settings.classList.add('show');
+}
 
 const HeaderMovil = () => {
     return(
+    <>
+    <Settings />
     <div className="HeaderMovil">
         <div className="header-PopUp" id="HeaderPopUp" onClick={btnVisibilityRemove}></div>
         <div className="header">
@@ -95,9 +106,7 @@ const HeaderMovil = () => {
                     <span className="AoTxtH">Ao <span className="DesuTxtH">Desu</span></span>
                 </Link>
                 <div className="settings-button-mv">
-                    <Link to="/settings">
-                        <i className="fas fa-cog"></i>
-                    </Link>
+                <button onClick={showSettings}><i className="fas fa-cog"></i></button>
                 </div>
                 <ProfileData />
             </div>
@@ -121,6 +130,7 @@ const HeaderMovil = () => {
         </div>
         <ModalAdds />
     </div>
+    </>
     )
 }
 
