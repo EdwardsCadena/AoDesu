@@ -282,7 +282,7 @@ body.light .ao-img-detailsMovies{
 .ao-img-detailsMovies > i,
 .ao-img-details > i
 {
-	font-size: 4em;
+	font-size: 2em;
 	border: 2px solid var(--light-1);
 	border-radius: 50%;
 	background: var(--black-1);

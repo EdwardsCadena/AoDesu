@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 
 function CapsListComponent(){
     const AoAnimePopUp = document.querySelector('.ao-anime-popUp');
+    const Body = document.querySelector('#Body');
+    
+    Body.classList.remove('NoScroll');
     AoAnimePopUp.classList.toggle('Show');
     //console.log('FuncionaCaps')
 }

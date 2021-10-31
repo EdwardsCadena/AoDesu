@@ -2,8 +2,10 @@ import React from 'react';
 
 export function ShowShareModal(){
     const content = document.querySelector('.content');
+    const Body = document.querySelector('#Body');
 
     content.classList.toggle('modalShare');
+    Body.classList.remove('NoScroll');
 }
 
 function ShareModal(props){

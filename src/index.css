@@ -20,7 +20,9 @@ body.light{
 	background: var(--light-1);
 	color: #000;
 }
-
+body.NoScroll{
+	overflow-y: hidden !important;
+}
 body.lowPerformance,
 body.lowPerformance .CloseBtn,
 body.lowPerformance .content,
@@ -2535,6 +2537,7 @@ body.light .MuiAppBar-colorPrimary{
 	height: 50px;
 	color: #fff;
 	font-size: 24px;
+	z-index: 2;
 }
 .closeSettingsBtn:hover{
 	background: var(--black-4);
@@ -2559,18 +2562,17 @@ body.light .settings-modal{
 	display: flex;
 	flex-flow: column;
 	position: relative;
-	max-width: 900px;
+	width: 100%;
+	align-items: center;
 	margin: 0 auto;
-	margin-top: 50px;
-}
-.settings-content{
-	padding-right: 5px;
+	padding-top: 50px !important;
 	overflow-y: scroll;
 }
 .settings-title{
 	font-family: var(--font-alternative);
 	position: relative;
 	margin: 10px 0;
+	max-width: 900px;
 }
 .settings-title::before{
 	content: "";
@@ -2592,6 +2594,7 @@ body.light .settings-title::before{
 .settings-content ul{
 	margin-top: 10px;
 	display: flex;
+	max-width: 900px;
 	flex-flow: column;
 }
 .settings-list{

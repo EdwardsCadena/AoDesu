@@ -84,9 +84,10 @@ function ProfileData(){
 function showSettings(){
     const Settings = document.querySelector('.settings-modal');
     const Content = document.querySelector('.content');
+    const Body = document.querySelector('#Body');
 
     Content.classList.add('showSettings');
-
+    Body.classList.add('NoScroll');
     Settings.classList.add('show');
 }
 
@@ -117,9 +118,12 @@ const Header = () => {
                         <li><Link to='/emision'><i className="fas fa-clock"></i><span>En Emisión</span></Link></li>
                         <li><Link to='/directory'><i className="fas fa-stream"></i><span>Directorio</span></Link></li>
                         <li><Link to='/about-us'><i className="fas fa-address-card"></i><span>Nosotros</span></Link></li>
-                        <li><button onClick={showSettings}><i className="fas fa-cog"></i><span>Ajustes</span></button></li>
+                        <li><Link to="/news"><i className="fas fa-newspaper" ></i><span>Noticias</span></Link></li>
                     </ul>
                 </nav>
+            </div>
+            <div className="settings-button-mv">
+                <button onClick={showSettings}><i className="fas fa-cog"></i></button>
             </div>
             <ProfileData />
         </div>

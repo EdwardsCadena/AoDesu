@@ -32,7 +32,9 @@ function blockedConfingTwo(){
 function closeSettings(){
     const Settings = document.querySelector('.settings-modal');
     const Content = document.querySelector('.content');
+    const Body = document.querySelector('#Body');
 
+    Body.classList.remove('NoScroll');
     Content.classList.remove('showSettings');
     Settings.classList.remove('show');
 }
@@ -71,6 +73,46 @@ class Settings extends Component {
                                         <span></span>
                                     </span>
                                     <button onClick={blockedConfingOne}></button>
+                                </li>
+                                <li className="settings-list" id="notify-confing">
+                                    <h3>Notificaciones</h3>
+                                    <p>Activala para recibir un anuncio cada que abras la web y estar informado acerca de todos los cambios.</p>
+                                    <span className="button-container">
+                                        <span></span>
+                                    </span>
+                                    <button onClick={blockedConfingTwo}></button>
+                                </li>
+                                <li className="settings-list" id="notify-confing">
+                                    <h3>Notificaciones</h3>
+                                    <p>Activala para recibir un anuncio cada que abras la web y estar informado acerca de todos los cambios.</p>
+                                    <span className="button-container">
+                                        <span></span>
+                                    </span>
+                                    <button onClick={blockedConfingTwo}></button>
+                                </li>
+                                <li className="settings-list" id="notify-confing">
+                                    <h3>Notificaciones</h3>
+                                    <p>Activala para recibir un anuncio cada que abras la web y estar informado acerca de todos los cambios.</p>
+                                    <span className="button-container">
+                                        <span></span>
+                                    </span>
+                                    <button onClick={blockedConfingTwo}></button>
+                                </li>
+                                <li className="settings-list" id="notify-confing">
+                                    <h3>Notificaciones</h3>
+                                    <p>Activala para recibir un anuncio cada que abras la web y estar informado acerca de todos los cambios.</p>
+                                    <span className="button-container">
+                                        <span></span>
+                                    </span>
+                                    <button onClick={blockedConfingTwo}></button>
+                                </li>
+                                <li className="settings-list" id="notify-confing">
+                                    <h3>Notificaciones</h3>
+                                    <p>Activala para recibir un anuncio cada que abras la web y estar informado acerca de todos los cambios.</p>
+                                    <span className="button-container">
+                                        <span></span>
+                                    </span>
+                                    <button onClick={blockedConfingTwo}></button>
                                 </li>
                                 <li className="settings-list" id="notify-confing">
                                     <h3>Notificaciones</h3>

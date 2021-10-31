@@ -13,7 +13,6 @@ class SettingsCookies extends Component {
 
     Settings(){
         const body = document.querySelector('#Body');
-        const wrapper = document.querySelector('.wrapper');
 
         if(localStorage.performance === 'low'){
             body.classList.add('lowPerformance');
@@ -25,12 +24,6 @@ class SettingsCookies extends Component {
             body.classList.add('light');
         }else{
             body.classList.remove('light');
-        }
-
-        if(localStorage.wrapper1 === 'hide'){
-            wrapper.classList.add('hide');
-        }else{
-            wrapper.classList.remove('hide');
         }
     }
 

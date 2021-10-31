@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Promo from '../../animedb/slider-data.json';
+import News from '../../animedb/newsContent.json';
 import './index.css';
-import WrapperCookies from '../cookies/wrapperCookies';
+import WrapperCookies from './wrapper2Cookies';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 import SwiperCore, { Autoplay, Lazy, Pagination, Navigation } from 'swiper';
 
 function hideWrapper(){
-    const wrapper = document.querySelector('.wrapper');
+    const wrapper = document.querySelector('.wrapperTwo');
 
-    localStorage.setItem('wrapper1', 'hide');
+    localStorage.setItem('wrapper2', 'hide');
     if(localStorage.wrapper1 === ''){
         wrapper.classList.remove('hide');
     }else{
@@ -23,7 +23,7 @@ SwiperCore.use([Autoplay, Lazy, Pagination, Navigation]);
 
 const Slider = () => {
 	return (
-		<main>
+		<main className="news">
             <WrapperCookies />
 			<Swiper
                 spaceBetween={0}
@@ -44,7 +44,7 @@ const Slider = () => {
                 onSwiper={(swiper) => console.log(swiper)}
                 style={{height: '100%'}}
             >	
-            <div class="wrapper" onClick={hideWrapper}>
+            <div class="wrapperTwo" onClick={hideWrapper}>
   
                 <div class="guide">
                         <svg xmlns="http://www.w3.org/2000/svg" class="mouse" width="40" height="58" viewBox="0 0 40 58">
@@ -61,26 +61,21 @@ const Slider = () => {
                 </div>
                 
             </div>
-                {Promo.map(e=> 
+                {News.map(e=> 
                     <SwiperSlide key={e.id} style={{overflow: 'hidden'}}>
-                        <div className="img-slider">
-                            <img data-src={e['background-img']} alt={e.name} className="swiper-lazy" />
+                        <div className="news-background">
+                            <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <span className="loading-txt">Cargando...</span>
+                            <img data-src={e.img} className="swiper-lazy" />
                         </div>
-                        <div className="background-image"></div>
-                        <div className={"txt-slider " + e.style}>
-                            <div className="txt-info">
-                                {e.txt}
+                        <div className="news-page-content">
+                            <div className="news-title">
+                                <h1>{e.title}</h1>
                             </div>
-                            <div className="content-slider">
-                                <div className="logo-slider">
-                                    <img src={e.logo} alt={e.name} className="swiper-lazy" />
-                                </div>
-                                <div className="btn-slider">
-                                    <Link  to={e.url}>{e.btnContent}</Link>
-                                </div>   
-                            </div>  
+                            <div className="news-date"> 
+                                {e.date}
+                            </div>
                         </div>
-                        <Link className="urlBox" to={e.url}></Link>
                     </SwiperSlide>
                 )}
 			</Swiper>

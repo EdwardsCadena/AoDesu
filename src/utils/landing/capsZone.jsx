@@ -7,7 +7,11 @@ const AoDownloader = "https://www.gooogle.com";
 
 function CapsListComponent(){
     const AoAnimePopUp = document.querySelector('.ao-anime-popUp');
+    const Body = document.querySelector('#Body');
+    
+    Body.classList.add('NoScroll');
     AoAnimePopUp.classList.toggle('Show');
+    
     //console.log('FuncionaCaps')
 }
 

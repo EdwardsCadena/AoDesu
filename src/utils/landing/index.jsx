@@ -13,7 +13,9 @@ function SeeMore() {
 
 function ShowShareModal(){
     const content = document.querySelector('.content');
+    const Body = document.querySelector('#Body');
 
+    Body.classList.add('NoScroll');
     content.classList.toggle('modalShare');
 }
 
